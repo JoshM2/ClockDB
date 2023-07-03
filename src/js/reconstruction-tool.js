@@ -228,3 +228,10 @@ items.forEach(function(item, index) {
         }
     });
 });
+
+function copyToClipboard() {
+    var copyText = document.querySelector("#recon").innerHTML;
+    navigator.clipboard.writeText(copyText).then(() => {
+        alert("Copied to clipboard");
+    });
+}
