@@ -116,7 +116,7 @@ export const reconstructionData = [
         "scramble": "UR4+ DR2+ DL2+ UL6+ U3+ R5- D5+ L4+ ALL3- y2 U0+ R5+ D6+ L6+ ALL5-",
         "inspection": "z2",
         "solution": "UR6+ L5- dr1- x2 UR1- D3+ ur1+ ul4- dr6+ dl3+ ALL2-",
-        "date": "Jun 17, 2023",
+        "date": "June 17, 2023",
         "competition": ["Agoura Cubing 2023","AgouraCubing2023"],
         "author": "Joshua Marriott"
     },
@@ -131,7 +131,7 @@ export const reconstructionData = [
         "scramble": "UR6+ DR4- DL0+ UL2+ U0+ R0+ D5+ L3+ ALL1+ y2 U0+ R0+ D4+ L4- ALL1+ DR DL",
         "inspection": "z",
         "solution": "UL4- U4- dl5- x2 UL1- UR4- DR2- R2- dl2- /1- ALL1-",
-        "date": "Feb 19, 2023",
+        "date": "February 19, 2023",
         "competition": ["Ohio State Mini Sunday 2023","OhioStateMiniSunday2023"],
         "author": "Joshua Marriott"
     },
@@ -146,7 +146,7 @@ export const reconstructionData = [
         "scramble": "UR5+ DR5+ DL2- UL5+ U4+ R3+ D4- L4- ALL0+ y2 U2- R2+ D0+ L1- ALL1- UR DR DL",
         "inspection": "y2",
         "solution": "LB BJ CA AL JF CA IJ (dl R DR \\ UL L ur)",
-        "date": "Jun 17, 2023",
+        "date": "June 17, 2023",
         "competition": ["CubingUSA Mid-Atlantic Championship 2023","MidAtlanticChampionship2023"],
         "author": "Joshua Marriott"
     },
@@ -161,7 +161,7 @@ export const reconstructionData = [
         "scramble": "UR4- DR2- DL3+ UL5+ U2- R2+ D1- L2+ ALL1- y2 U1+ R1+ D2+ L2+ ALL1- UR DL UL",
         "inspection": "z2",
         "solution": "UR2- DL1- dr2- x2 UR4+ UL2+ U5- dr4- ur1+",
-        "date": "Nov 19, 2022",
+        "date": "November 19, 2022",
         "competition": ["Burke Mountain Cubing 2022","BurkeMountainCubing2022"],
         "author": "Aedan Bryant"
     },
@@ -176,9 +176,24 @@ export const reconstructionData = [
         "scramble": "UR1- DR5- DL5+ UL4+ U3- R2- D6+ L2- ALL3- y2 U0+ R4+ D4+ L4+ ALL0+ DR DL UL",
         "inspection": "z2",
         "solution": "UL4- R4- dl4- y2 UL4- UR5+ U5+ ur1- ul4+ dr1- dl2+ ALL3+",
-        "date": "Jun 25, 2023",
+        "date": "June 25, 2023",
         "competition": ["Concord Summer 2023","ConcordSummer2023"],
         "author": "NJ Kim"
+    },
+    {
+        "title": "Nathaniel Berg 3.73 Single",
+        "wcaid": "2012BERG04",
+        "id": "panmxPXiSnw",
+        "recon": [[0.01,"set",[12,1,2,5,1,1,9,12,7,1,0],[0,0,0,0]],[9.73,9.97,[1,2,4,5],4],[10.03,10.23,[0,1,2,3,4,5],-5],[10.33,10.6,"flip","x2",[7,6,1,4,4,4,9,4,7,0]],[11,11.17,[3,4,5,6,7,8],2],[11.27,11.43,[0,1,3,4,5,6,7,8],-5],[11.67,11.77,[1,2,3,4,5,6,7,8],1],[11.97,12.2,[0,1,2,3,4,5,7,8],5],[12.4,12.6,[0,1,2,3,4,5,6,7],3],[12.73,12.97,[0,1,2,3,4,5,6,7,8],2]],
+        "startTime": 9,
+        "solveStart": [9.40,3.73],
+        "tags": [["WR","#F44336"],["Official","gray"],["Flip","lightgreen"]],
+        "scramble": "UR1+ DR1+ DL5- UL3+ U3- R6+ D4+ L2+ ALL4+ y2 U0+ R0+ D2+ L0+ ALL6+ UR DR DL UL",
+        "inspection": "y2",
+        "solution": "UR4+ U5- x2 U2- dr5+ dl1- ul5- ur3- ALL2-",
+        "date": "June 21, 2015",
+        "competition": ["Danish Open Championships 2015","DanishOpen2015"],
+        "author": "Samuel Eklund-Hanna "
     }
 ]
 
