@@ -11,7 +11,8 @@ export const reconstructionData = [
         "inspection": "y2",
         "solution": "UR2- DR1+ UL3- U2- dl1- x2 DR2+ UL5- U2- dl1+ ul5- ur4-",
         "date": "May 03, 2021",
-        "competition": ["Guangdong Open 2021","GuangdongOpen2021"],
+        "competitionName": "Guangdong Open 2021",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GuangdongOpen2021",
         "author": "Joshua Marriott"
     },
     {
@@ -26,7 +27,8 @@ export const reconstructionData = [
         "inspection": "z2",
         "solution": "DL6+ UR1+ UL1+ U1+ dr2+ x2 UR3+ UL2+ U1- ul1- ALL3+",
         "date": "March 25, 2023",
-        "competition": ["Wiltshire Spring 2023","WiltshireSpring2023"],
+        "competitionName": "Wiltshire Spring 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/WiltshireSpring2023",
         "author": "Joshua Marriott"
     },
     {
@@ -41,7 +43,8 @@ export const reconstructionData = [
         "inspection": "x2 z",
         "solution": "R6+ L4+ dr2+ x2 DR5+ UL2- L5+ ur4+ ul1+",
         "date": "June 17, 2023",
-        "competition": ["CubingUSA Mid-Atlantic Championship 2023","MidAtlanticChampionship2023"],
+        "competitionName": "CubingUSA Mid-Atlantic Championship 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/MidAtlanticChampionship2023",
         "author": "Joshua Marriott"
     },
     {
@@ -56,7 +59,8 @@ export const reconstructionData = [
         "inspection": "x2 z",
         "solution": "UL1- x2 UL4+ UR2- D2+ ur5+ dl1+ dl1+ ALL2+",
         "date": "January 07, 2023",
-        "competition": ["Pegasus 2023","Pegasus2023"],
+        "competitionName": "Pegasus 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/Pegasus2023",
         "author": "Joshua Marriott"
     },
     {
@@ -71,7 +75,8 @@ export const reconstructionData = [
         "inspection": "z2",
         "solution": "DL1+ UR5+ R2+ ALL5- x2 UL1+ R4- dl4+ ur1- ul3- dr6+ ALL1+",
         "date": "July 24, 2022",
-        "competition": ["GA Cubers Warm Up 2022","GACubersWarmUp2022"],
+        "competitionName": "GA Cubers Warm Up 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GACubersWarmUp2022",
         "author": "Joshua Marriott"
     },
     {
@@ -86,7 +91,8 @@ export const reconstructionData = [
         "inspection": "y2",
         "solution": "DL1- UR3- UL2- dl5+ x2 UR2- UL3+ L5+ dr1+ dl1+ ul3- ALL1-",
         "date": "April 01, 2023",
-        "competition": ["Cubing in Cambridge 2023","CubinginCambridge2023"],
+        "competitionName": "Cubing in Cambridge 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/CubinginCambridge2023",
         "author": "Joshua Marriott"
     },
     {
@@ -102,7 +108,8 @@ export const reconstructionData = [
         "inspection": "x2 z",
         "solution": "UL4+ R6+ dl2- x2z' DL1- UR3- R2- ur2+ dr1+ dl3- ALL2-",
         "date": "May 27, 2023",
-        "competition": ["Washtenaw Qualifier 2023","WashtenawQualifier2023"],
+        "competitionName": "Washtenaw Qualifier 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/WashtenawQualifier2023",
         "author": "Joshua Marriott"
     },
     {
@@ -117,7 +124,8 @@ export const reconstructionData = [
         "inspection": "z2",
         "solution": "UR6+ L5- dr1- x2 UR1- D3+ ur1+ ul4- dr6+ dl3+ ALL2-",
         "date": "June 17, 2023",
-        "competition": ["Agoura Cubing 2023","AgouraCubing2023"],
+        "competitionName": "Agoura Cubing 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/AgouraCubing2023",
         "author": "Joshua Marriott"
     },
     {
@@ -132,7 +140,8 @@ export const reconstructionData = [
         "inspection": "z",
         "solution": "UL4- U4- dl5- x2 UL1- UR4- DR2- R2- dl2- /1- ALL1-",
         "date": "February 19, 2023",
-        "competition": ["Ohio State Mini Sunday 2023","OhioStateMiniSunday2023"],
+        "competitionName": "Ohio State Mini Sunday 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/OhioStateMiniSunday2023",
         "author": "Joshua Marriott"
     },
     {
@@ -147,7 +156,8 @@ export const reconstructionData = [
         "inspection": "y2",
         "solution": "LB BJ CA AL JF CA IJ (dl R DR \\ UL L ur)",
         "date": "June 17, 2023",
-        "competition": ["CubingUSA Mid-Atlantic Championship 2023","MidAtlanticChampionship2023"],
+        "competitionName": "CubingUSA Mid-Atlantic Championship 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/MidAtlanticChampionship2023",
         "author": "Joshua Marriott"
     },
     {
@@ -162,7 +172,8 @@ export const reconstructionData = [
         "inspection": "z2",
         "solution": "UR2- DL1- dr2- x2 UR4+ UL2+ U5- dr4- ur1+",
         "date": "November 19, 2022",
-        "competition": ["Burke Mountain Cubing 2022","BurkeMountainCubing2022"],
+        "competitionName": "Burke Mountain Cubing 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/BurkeMountainCubing2022",
         "author": "Aedan Bryant"
     },
     {
@@ -177,7 +188,8 @@ export const reconstructionData = [
         "inspection": "z2",
         "solution": "UL4- R4- dl4- y2 UL4- UR5+ U5+ ur1- ul4+ dr1- dl2+ ALL3+",
         "date": "June 25, 2023",
-        "competition": ["Concord Summer 2023","ConcordSummer2023"],
+        "competitionName": "Concord Summer 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/ConcordSummer2023",
         "author": "NJ Kim"
     },
     {
@@ -192,8 +204,25 @@ export const reconstructionData = [
         "inspection": "y2",
         "solution": "UR4+ U5- x2 U2- dr5+ dl1- ul5- ur3- ALL2-",
         "date": "June 21, 2015",
-        "competition": ["Danish Open Championships 2015","DanishOpen2015"],
+        "competitionName": "Danish Open Championships 2015",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/DanishOpen2015",
         "author": "Samuel Eklund-Hanna "
+    },
+    {
+        "title": "NJ Kim 3.94 Single",
+        "wcaid": "2022KIMN01",
+        "id": "NtWSphETpa8",
+        "recon": [[0.01,"set",[2,11,2,10,5,5,12,5,8,0,2],[0,1,0,0]],[18.67,18.8,[4,5,7,8],5],[19.07,19.13,[3,4,5,6,7,8],1],[19.33,19.47,[0,1,2,3,4,5,6,7,8],1],[19.53,19.8,"flip","x2",[3,7,3,5,7,4,2,2,3,1]],[20.1,20.27,[1,2,4,5],-2],[20.53,20.67,[0,1,3,4],-3],[21,21.13,[1,2,3,4,5,6,7,8],-2],[21.33,21.53,[0,1,3,4,5,6,7,8],-1],[21.83,21.93,[0,1,2,3,4,5,6,7],1]],
+        "startTime": 17,
+        "solveStart": [18.13,3.94],
+        "tags": [["Flip","lightgreen"]],
+        "scramble": "UR4- DR1+ DL5- UL2- U1+ R0+ D4+ L5+ ALL5+ y2 U0+ R5- D6+ L0+ ALL4+ DL",
+        "inspection": "z2",
+        "solution": "UL5+ U1+ ALL1+ x2 UL2+ UR3+ ur2+ ul1+ dl1+",
+        "date": "October 30, 2022",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=NtWSphETpa8",
+        "author": "NJ Kim"
     }
 ]
 
