@@ -164,6 +164,21 @@ export const reconstructionData = [
         "date": "Nov 19, 2022",
         "competition": ["Burke Mountain Cubing 2022","BurkeMountainCubing2022"],
         "author": "Aedan Bryant"
+    },
+    {
+        "title": "NJ Kim 4.18 Single",
+        "wcaid": "2022KIMN01",
+        "id": "X8vHi5bfF5I",
+        "recon": [[0.01,"set",[1,8,8,8,12,8,12,12,2,0,2],[1,0,1,1]],[12.7,12.9,[4,5,7,8],-4],[13.17,13.27,[0,1,3,4,6,7],-4],[13.4,13.5,[0,1,3,4,5,6,7,8],-4],[13.6,14,"flip","y2",[5,7,8,8,1,5,4,1,6,1]],[14.2,14.37,[3,4,6,7],4],[14.57,14.7,[4,5,7,8],-5],[14.83,15,[3,4,5,6,7,8],-5],[15.27,15.37,[0,1,2,3,4,5,6,7],1],[15.53,15.67,[0,1,2,3,4,5,7,8],-4],[15.83,15.93,[0,1,3,4,5,6,7,8],1],[16.07,16.2,[1,2,3,4,5,6,7,8],-2],[16.3,16.47,[0,1,2,3,4,5,6,7,8],-3]],
+        "startTime": 12,
+        "solveStart": [12.27,4.18],
+        "tags": [["Official","gray"],["Flip","lightgreen"]],
+        "scramble": "UR1- DR5- DL5+ UL4+ U3- R2- D6+ L2- ALL3- y2 U0+ R4+ D4+ L4+ ALL0+ DR DL UL",
+        "inspection": "z2",
+        "solution": "UL4- R4- dl4- y2 UL4- UR5+ U5+ ur1- ul4+ dr1- dl2+ ALL3+",
+        "date": "Jun 25, 2023",
+        "competition": ["Concord Summer 2023","ConcordSummer2023"],
+        "author": "NJ Kim"
     }
 ]
 
