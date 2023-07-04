@@ -223,6 +223,21 @@ export const reconstructionData = [
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=NtWSphETpa8",
         "author": "NJ Kim"
+    },
+    {
+        "title": "Jude Stradtner 3.91 Single",
+        "wcaid": "2021STRA04",
+        "id": "DluGVb_Doc8",
+        "recon": [[0.01,"set",[11,10,9,11,11,10,9,9,7,1,1],[0,0,1,1]],[22.63,22.77,[3,4,6,7],-1],[23,23.17,[0,1,2,3,4,5],-2],[23.2,23.37,[0,1,2,3,4,5,6,7],4],[23.43,23.7,"flip","x2",[1,0,11,10,10,0,0,7,7,0]],[24,24.2,[3,4,6,7],2],[24.53,24.73,[0,1,2,3,4,5],-3],[24.8,25.03,[0,1,2,3,4,5,7,8],5],[25.17,25.27,[1,2,3,4,5,6,7,8],1],[25.5,25.53,[0,1,3,4,5,6,7,8],-1],[25.77,25.99,[0,1,2,3,4,5,6,7],-2]],
+        "startTime": 22,
+        "solveStart": [22.30, 3.91],
+        "tags": [["Official","gray"],["Flip","lightgreen"]],
+        "scramble": "UR2- DR2+ DL1- UL5- U4+ R2+ D1+ L6+ ALL5- y2 U2+ R0+ D1+ L1+ ALL5- DR DL",
+        "inspection": "z",
+        "solution": "UL1- R2- dl4+ x2 DR2- R3+ dl5- dr1- ur1+ ul2+",
+        "date": "March 05, 2023",
+        "competitionName": "Cubing in the Clouds 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingintheClouds2023",
+        "author": "Jude Stradtner"
     }
 ]
-
