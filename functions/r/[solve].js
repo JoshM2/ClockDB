@@ -17,6 +17,14 @@ export function onRequest(context) {
         tagsHTML += `<span class='tags' style='background-color:${data[solve].tags[i][1]};'>${data[solve].tags[i][0]}</span>`;
     }
 
+    let averageTimesHTML = '';
+    if (data[solve].average != undefined) {
+        for(let i=0; i<data[solve].average.length; i++) {
+            averageTimesHTML += `<div class="averageTimeBox s${data[solve].average[i][0]}">${data[solve].average[i][2].toFixed(2)}</div>`
+        }
+        averageTimesHTML += "<br><br>"
+    }
+
     const html = `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -83,6 +91,7 @@ export function onRequest(context) {
         </div>
         <br>
         <span id="time">0.00</span><br><br>
+        <div id="averageTimes">${averageTimesHTML}</div>
         <div id="infoBox">
             <h2 id="scramble">Scramble: ${data[solve].scramble}</h2>
             <h2 id="solution">Solution: ${data[solve].inspection} ${data[solve].solution}</h2>
