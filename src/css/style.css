@@ -64,7 +64,6 @@ footer {
     right: 0;
     width: 100%;
     overflow: hidden;
-
 }
 footer a {
     color: white;
@@ -110,6 +109,23 @@ a {
         margin-top: 20px;
     }
 }
+.averageTimeBox {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border-radius: 15%;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.selectedTime {
+    background-color: white;
+    color: black;
+}
+
 .bigCircle {
     aspect-ratio: 1/1;
     width: 430px;
