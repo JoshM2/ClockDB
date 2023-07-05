@@ -3,9 +3,13 @@ export function onRequest(context) {
     const data = JSON.parse(JSON.stringify(reconstructionData));
 
     const timeValues = data.map((jsonObj, index) => ({ index, solveStart: jsonObj.solveStart[1] }));
-    const sortedIndexes = timeValues
+    let sortedIndexes = timeValues
         .sort((a, b) => a.solveStart - b.solveStart)
         .map(obj => obj.index);
+
+    // the following two lines are a temporary solution to put Niklas' average onto the site.
+    sortedIndexes = sortedIndexes.filter(number => ![15, 16, 17, 18, 19].includes(number));
+    sortedIndexes.unshift(15);
 
     let grid = "";
     sortedIndexes.forEach(i => {
@@ -13,11 +17,14 @@ export function onRequest(context) {
         for (let x=0; x < data[i].tags.length; x++) {
             tagsHTML += `<span class='tags' style='background-color:${data[i].tags[x][1]};'>${data[i].tags[x][0]}</span>`;
         }
+        //the following two lines are a temporary solution to put Niklas's average onto the site. This removes the individual solve time from the card.
+        let title = data[i].title;
+        let firstPart = title.includes(" - ") ? title.split(" - ")[0] : title; 
         grid += `<a href="/r/${i}" class="grid-item">
             <div>
                 <img width="100%" aspect-ratio:"16x8" src="https://img.youtube.com/vi/${data[i].id}/0.jpg"></img>
             </div>
-            <h2 class="solveTitle">${data[i].title}</h2>
+            <h2 class="solveTitle">${firstPart}</h2>
             ${tagsHTML}
         </a>`
     })
