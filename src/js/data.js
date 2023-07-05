@@ -206,7 +206,7 @@ export const reconstructionData = [
         "date": "June 21, 2015",
         "competitionName": "Danish Open Championships 2015",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/DanishOpen2015",
-        "author": "Samuel Eklund-Hanna "
+        "author": "Samuel Eklund-Hanna"
     },
     {
         "title": "NJ Kim 3.94 Single",
@@ -255,7 +255,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,3.27],[16,4.51],[17,4.06],[18,3.17],[19,3.30]]
+        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 4.51",
@@ -272,7 +272,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,3.27],[16,4.51],[17,4.06],[18,3.17],[19,3.30]]
+        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 4.06",
@@ -289,7 +289,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,3.27],[16,4.51],[17,4.06],[18,3.17],[19,3.30]]
+        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 3.17",
@@ -306,7 +306,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Joshua Marriott",
-        "average": [[15,3.27],[16,4.51],[17,4.06],[18,3.17],[19,3.30]]
+        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 3.30",
@@ -323,6 +323,70 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Joshua Marriott",
-        "average": [[15,3.27],[16,4.51],[17,4.06],[18,3.17],[19,3.30]]
+        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
     },
+    {
+        "title": "Jules Graham 2.73 Single",
+        "wcaid": "2020GRAH01",
+        "id": "frBcod-5CLg",
+        "recon": [[0.01,"set",[4,8,10,5,9,12,10,7,7,0,2],[0,0,1,0]],[23.77,23.9,[0,1,3,4,6,7],5],[23.97,24.1,[2,8],-5],[24.33,24.4,[0,1,3,4],-2],[24.37,24.43,[2,6,8],-2],[24.73,24.83,[0,1,2,3,4,5,7,8],3],[24.97,25.03,[6],1],[25.2,25.3,[1,2,4,5,7,8],-3],[25.33,25.4,[0,6],1],[25.57,25.6,[4,5,7,8],-1],[25.87,25.93,[0,1,3,4,5,7,8],1],[25.87,25.97,[2,6],-3]],
+        "startTime": 23,
+        "solveStart": [23.40,2.73],
+        "tags": [["7-Simul","mediumpurple"]],
+        "scramble": "UR4+ DR4- DL0+ UL1- U1- R4+ D5+ L2- ALL4+ y2 U0+ R2+ D1+ L5- ALL6+ UR DL UL",
+        "inspection": "x2",
+        "solution": "R(5-,5+) DR(2-,2-) ur(3+, 1+) L(3-,1+) UR(1-,0+) \\(1+,3-)",
+        "date": "June 18, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=frBcod-5CLg",
+        "author": "Jules Graham"
+    },
+    {
+        "title": "Liam Wadek 3.50 Single",
+        "wcaid": "2017WADE01",
+        "id": "dr6fqAhJhUc",
+        "recon": [[0.01,"set",[6,2,2,12,10,10,6,10,4,1,3],[1,1,1,1]],[16.7,16.87,[4,5,7,8],4],[17.05,17.17,[1,2,4,5,7,8],-2],[17.15,17.39,"flip","x2",[6,8,12,4,7,10,6,4,6,0]],[17.8,17.96,[1,2,4,5],-3],[18.13,18.21,[3,4,6,7],1],[18.35,18.47,[0,1,3,4,6,7],2],[18.61,18.69,[1,2,3,4,5,6,7,8],1],[18.89,19.01,[0,1,2,3,4,5,7,8],2],[19.21,19.29,[0,1,2,3,4,5,6,7],-1],[19.45,19.57,[0,1,3,4,5,6,7,8],2],[19.71,19.79,[0,1,2,3,4,5,6,7,8],1]],
+        "startTime": 16,
+        "solveStart": [16.33,3.50],
+        "tags": [["CR","#FFEB3B"],["Official","gray"],["Flip","lightgreen"]],
+        "scramble": "UR1+ DR1- DL3+ UL5- U1+ R3+ D1- L1- ALL5+ y2 U0+ R2- D4- L0+ ALL4+ UR DR DL UL",
+        "inspection": "z'",
+        "solution": "UR4+ U2- x2 DL3+ UR1- U2- ul1- ur2- dr1+ dl2- ALL1-",
+        "date": "September 04, 2022",
+        "competitionName": "NZ North Island Championship 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/NZNorthIslandChamps2022",
+        "author": "Jules Graham"
+    },
+    {
+        "title": "Daniel Wallin DNF(4.20)",
+        "wcaid": "2013WALL03",
+        "id": "zoGxq8fBrFQ",
+        "recon": [[10.88,"set",[12,1,2,5,1,1,9,12,7,1,0],[0,0,0,0]],[12.23,12.43,[1,2,4,5],4],[12.57,12.77,[0,1,2,3,4,5],-4],[12.83,13.67,"flip","x2",[8,6,2,4,4,4,9,4,7,0]],[13.83,13.97,[3,4,5,6,7,8],2],[14.1,14.27,[0,1,3,4,5,6,7,8],-4],[14.53,14.7,[1,2,3,4,5,6,7,8],2],[14.97,15.33,[0,1,2,3,4,5,7,8],5],[15.57,15.73,[0,1,2,3,4,5,6,7],3]],
+        "startTime": 11,
+        "solveStart": [11.77,4.20],
+        "tags": [["Official","gray"],["Flip","lightgreen"]],
+        "scramble": "UR1+ DR1+ DL5- UL3+ U3- R6+ D4+ L2+ ALL4+ y2 U0+ R0+ D2+ L0+ ALL6+ UR DR DL UL",
+        "inspection": "y2",
+        "solution": "UR4+ U4- x2 U2- dr4+ dl2- ul5- ur3-",
+        "date": "June 21, 2015",
+        "competitionName": "Danish Open Championships 2015",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/DanishOpen2015",
+        "author": "Samuel Eklund-Hanna"
+    },
+    {
+        "title": "Fengyuan Kelvin Lou 3.49 Single",
+        "wcaid": "2023LOUF01",
+        "id": "LP3VB_mjcnI",
+        "recon": [[0,"set",[8,12,12,11,7,4,3,2,8,0,0],[1,1,1,1]],[9.83,9.97,[0,1,2,3,4,5,7,8],1],[10.1,10.17,[1,2,4,5,7,8],-1],[10.6,10.9,[4,5,7,8],5],[10.43,10.6,[0,2,6],3],[11.13,11.33,[0,1,3,4,5,7,8],-1],[11.13,11.33,[2,6],2],[11.53,11.63,[0,1,3,4],-5],[11.67,11.83,[2,6,8],-2],[12.13,12.23,[0,1,3,4,6,7],2],[12.13,12.23,[2,8],-2],[12.5,12.7,[0,1,3,4,5,6,7,8],4],[12.5,12.7,[2],-1]],
+        "startTime": 9,
+        "solveStart": [9.43,3.49],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"]],
+        "scramble": "UR1+ DR5- DL3+ UL2- U6+ R0+ D3- L2+ ALL5+ y2 U1- R0+ D0+ L3- ALL4+",
+        "inspection": "y2",
+        "solution": "dl(0+,1+) R(0+,1-) DR(3+,5+) \\(1-,2+) UL(5-,2-) L(2+,2-) ur(4+,1-)",
+        "date": "July 01, 2023",
+        "competitionName": "Suffolk Summer 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/SuffolkSummer2023",
+        "author": "Fengyuan Kelvin Lou"
+    }
 ]
