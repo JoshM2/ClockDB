@@ -1,8 +1,8 @@
 import {reconstructionData} from './data.js'
 const data = JSON.parse(JSON.stringify(reconstructionData));
-const solve = window.location.href.split("/")[4]
-const recon = data[solve].recon
-const reconLength = recon.length;
+let solve = window.location.href.split("/")[4]
+let recon = data[solve].recon
+let reconLength = recon.length;
 
 // This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
@@ -45,6 +45,8 @@ let state = [0,0,0,0,0,0,0,0,0,0,0]
 let pinColors = ['','','','']
 let turnDegrees;
 let flipDegrees;
+let previousSolveOfAverage = solve;
+let solveOfAverage = solve;
 function animate() {
     let timeStamp;
     try{
@@ -75,6 +77,10 @@ function animate() {
             pinColors[2] = recon[i][3][2] === 1 ? "yellow" : "gray";
             pinColors[3] = recon[i][3][3] === 1 ? "yellow" : "gray";
 
+            // sets solve of average
+            if (data[solve].average !== undefined) {
+                solveOfAverage = recon[i][4]
+            }
         }
         // flips
         else if (recon[i][2] === "flip" && timeStamp >= recon[i][0]) {
@@ -118,12 +124,18 @@ function animate() {
                 pinColors[2] = recon[i][2].includes(6) ? "yellow" : "gray";
                 pinColors[3] = recon[i][2].includes(8) ? "yellow" : "gray";
             }
+            else {
+                pinColors[0] = recon[i][2].includes(0) ? "gray" : "yellow"; 
+                pinColors[1] = recon[i][2].includes(2) ? "gray" : "yellow"; 
+                pinColors[2] = recon[i][2].includes(6) ? "gray" : "yellow"; 
+                pinColors[3] = recon[i][2].includes(8) ? "gray" : "yellow";
+            }
             turnDegrees = ((timeStamp-recon[i][0])/(recon[i][1]-recon[i][0]) > 1 ? 1 : (timeStamp-recon[i][0])/(recon[i][1]-recon[i][0])) * recon[i][3];
             for (let dial of recon[i][2]){
                 state[dial] += turnDegrees
             }
         }
-    }
+    } 
     // sets the state of the dials and pins
     for (let dial=0; dial<9; dial++){
         dialElements[dial].style.transform = "translate(50px, 2px) rotate("+(state[dial]*30)+"deg)";
@@ -132,6 +144,20 @@ function animate() {
     pinUElement.style.backgroundColor = pinColors[1];
     pinLElement.style.backgroundColor = pinColors[2];
     pinCElement.style.backgroundColor = pinColors[3];
+
+    // updates the solve if in an average and the video is on a new solve
+    if (solveOfAverage != previousSolveOfAverage) {
+        solve = solveOfAverage;
+        document.querySelector("#title").innerHTML = data[solve].title;
+        document.querySelector("#author").innerHTML = data[solve].author;
+        document.title = data[solve].title + " - ClockDB";
+        document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;
+        document.querySelector("#solution").innerHTML = "Solution: " + data[solve].solution;
+        window.history.pushState({ path: "/r/"+solve }, "", "/r/"+solve);
+        recon = data[solve].recon;
+        reconLength = recon.length;
+        previousSolveOfAverage = solveOfAverage;
+    }
 
     timeElement.innerHTML = Math.min(data[solve]['solveStart'][1],Math.max(0,timeStamp-data[solve]['solveStart'][0])).toFixed(2);
     
