@@ -40,6 +40,7 @@ const pinLElement = document.querySelector(".pin.l");
 const pinCElement = document.querySelector(".pin.c");
 const dialElements = document.querySelectorAll(".dial");
 const timeElement = document.querySelector("#time");
+const averageTimeBoxElements = document.querySelectorAll(".averageTimeBox")
 
 let state = [0,0,0,0,0,0,0,0,0,0,0]
 let pinColors = ['','','','']
@@ -148,6 +149,10 @@ function animate() {
     // updates the solve if in an average and the video is on a new solve
     if (solveOfAverage != previousSolveOfAverage) {
         solve = solveOfAverage;
+        for (let s = 0; s < averageTimeBoxElements.length; s++) {
+            averageTimeBoxElements[s].classList.remove("selectedTime");
+        }
+        document.querySelector(`.s${solve}`).classList.add('selectedTime');
         document.querySelector("#title").innerHTML = data[solve].title;
         document.querySelector("#author").innerHTML = data[solve].author;
         document.title = data[solve].title + " - ClockDB";
@@ -168,3 +173,15 @@ function animate() {
 document.querySelector("#restart").addEventListener("click", function(){
     player.seekTo(data[solve].startTime, true);
 })
+
+
+if (data[solve].average !== undefined) {
+    document.querySelector(`.s${solve}`).classList.add('selectedTime');
+    for (let s = 0; s < averageTimeBoxElements.length; s++) {
+        averageTimeBoxElements[s].addEventListener("click", function(){
+            player.seekTo(data[data[solve].average[s][0]].startTime, true);
+        })        
+    }
+}
+
+
