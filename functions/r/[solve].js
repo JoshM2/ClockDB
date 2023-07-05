@@ -88,7 +88,7 @@ export function onRequest(context) {
             <h2 id="solution">Solution: ${data[solve].inspection} ${data[solve].solution}</h2>
         </div>
         <br><br>
-        <span id="date">${data[solve].date} at <a href="${data[solve].competitionLink}" target="_blank">${data[solve].competitionName}</a>. Reconstructed by ${data[solve].author}.</span>
+        <span id="date">${data[solve].date} at <a href="${data[solve].competitionLink}" target="_blank">${data[solve].competitionName}</a>. Reconstructed by <span id="author">${data[solve].author}</span>.</span>
         <br><br><br>    
         <footer>
             <a href="/contact">Contact</a>
