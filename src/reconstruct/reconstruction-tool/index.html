@@ -22,7 +22,7 @@
         <h3>This is a long process and it isn't easy. Watch my video on how to use this. Feel free to contact me if you need any help.</h3>
         <h1>Enter a youtube video link to begin (no shortened youtu.be links. Enter in the full url from the hotbar.)</h1>
         <input type="text" id="videoLink" placeholder="Enter a youtube link">
-        <button id="submitVideo" onclick="setVideo()">Enter</button>
+        <button id="submitVideo">Enter</button>
     </div>
     <div id="video" style="display: none;">
         <div id="container">
@@ -118,6 +118,6 @@
         <br><button onclick="copyToClipboard()">Click here to copy</button><span id="recon"></span> 
     </div>
 
-    <script src="/js/reconstruction-tool.js"></script>
+    <script type="module" src="/js/reconstruction-tool.js"></script>
 </body>
 </html>
