@@ -43,7 +43,7 @@ export function onRequest(context) {
         </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>ClockDB</title>
+        <title>ClockDB - Rubik's Clock Reconstructions</title>
         <link href="/css/style.css" rel="stylesheet" type="text/css"/>
         <link href="/css/home.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" type="image/x-icon" href="/clock.ico">
@@ -58,8 +58,8 @@ export function onRequest(context) {
         
         <br><br><br>    
         <footer>
-            <a href="/contact">Contact</a>
-            <a href="/reconstruct">Make Reconstruction</a>
+            <a href="/contact/">Contact</a>
+            <a href="/reconstruct/">Make Reconstruction</a>
             <a href="https://github.com/JoshM2/ClockDB" target="_blank">GitHub</a>
         </footer>
     </body>
