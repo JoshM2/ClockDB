@@ -1,7 +1,7 @@
 import {reconstructionData} from './data.js'
 const data = JSON.parse(JSON.stringify(reconstructionData));
-let solve = window.location.href.split("/")[4]
-let recon = data[solve].recon
+let solve = window.location.href.split("/")[4];
+let recon = data[solve].recon;
 let reconLength = recon.length;
 
 // This code loads the IFrame Player API code asynchronously.
@@ -20,6 +20,7 @@ window.onYouTubeIframeAPIReady = function() {
             'playsinline': 1,
             'modestbranding': 1,
             'rel': 0,
+            'widget_referrer': "https://clockdb.net",
             'start': data[solve].startTime,
             'end': data[solve].endTime || 1000000,
         },
@@ -42,8 +43,8 @@ const dialElements = document.querySelectorAll(".dial");
 const timeElement = document.querySelector("#time");
 const averageTimeBoxElements = document.querySelectorAll(".averageTimeBox")
 
-let state = [0,0,0,0,0,0,0,0,0,0,0]
-let pinColors = ['','','','']
+let state = [0,0,0,0,0,0,0,0,0,0,0];
+let pinColors = ['','','',''];
 let turnDegrees;
 let flipDegrees;
 let previousSolveOfAverage = solve;
@@ -158,7 +159,7 @@ function animate() {
         document.title = data[solve].title + " - ClockDB";
         document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;
         document.querySelector("#solution").innerHTML = "Solution: " + data[solve].solution;
-        window.history.pushState({ path: "/r/"+solve }, "", "/r/"+solve);
+        window.history.replaceState({ path: "/r/"+solve }, "", "/r/"+solve);
         recon = data[solve].recon;
         reconLength = recon.length;
         previousSolveOfAverage = solveOfAverage;
