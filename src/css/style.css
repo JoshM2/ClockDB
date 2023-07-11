@@ -1,12 +1,12 @@
 body {
     background-color: #222222;
-    font-family: kanit;
+    font-family: ubuntu;
     text-align: center;
     color: white;
 }
 @font-face {
-    font-family: kanit;
-    src: url('/fonts/kanit-regular.ttf')
+    font-family: ubuntu;
+    src: url('/fonts/ubuntu-r.ttf')
 }
 #container {
     display: flex;
@@ -17,7 +17,7 @@ body {
 .tags {
     display: inline;
     color: black;
-    padding: 0px 5px;
+    padding: 2px 5px;
     border-radius: 5px;
     margin-right: 2px;
     margin-left: 2px;
@@ -38,10 +38,10 @@ body {
     text-align: left;
 }
 #title {
-    margin: 0px;
+    margin-bottom: 10px;
 }
 #nav {
-    font-size: 30px;
+    font-size: 27px;
     text-align: left;
 }
 #nav a {
@@ -196,3 +196,4 @@ a {
     transform: translate(110px,110px);
     border: 1px solid black;
 }
+
