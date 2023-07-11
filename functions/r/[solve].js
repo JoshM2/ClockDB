@@ -100,8 +100,8 @@ export function onRequest(context) {
         <span id="date">${data[solve].date} at <a href="${data[solve].competitionLink}" target="_blank">${data[solve].competitionName}</a>. Reconstructed by <span id="author">${data[solve].author}</span>.</span>
         <br><br><br>    
         <footer>
-            <a href="/contact">Contact</a>
-            <a href="/reconstruct">Make Reconstruction</a>
+            <a href="/contact/">Contact</a>
+            <a href="/reconstruct/">Make Reconstruction</a>
             <a href="https://github.com/JoshM2/ClockDB" target="_blank">GitHub</a>
         </footer>
         <script type="module" src="/js/script.js"></script>
