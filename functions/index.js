@@ -56,7 +56,9 @@ export function onRequest(context) {
     
         <div id="grid-container">${grid}</div>
         
-        <br><br><br>    
+        <br><br>
+        <a href="/top-reconstructors/"><u>Thanks to everyone who made a reconstruction!</u></a>
+        <br><br><br><br>
         <footer>
             <a href="/contact/">Contact</a>
             <a href="/reconstruct/">Make Reconstruction</a>
