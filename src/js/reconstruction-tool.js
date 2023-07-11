@@ -1,4 +1,9 @@
-// this code is a mess sorry
+import {reconstructionData} from './data.js';
+
+// all the code in this file is a mess sorry
+
+const data = JSON.parse(JSON.stringify(reconstructionData));
+
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -7,11 +12,12 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 var player
-function setVideo(){
+document.querySelector("#submitVideo").addEventListener("click", function() {
+    let vidId = document.querySelector("#videoLink").value.split("v=")[1]
     player = new YT.Player('player', {
         height: '390',
         width: '640',
-        videoId: document.querySelector("#videoLink").value.split("v=")[1],
+        videoId: vidId,
         playerVars: {
             'playsinline': 1,
             'modestbranding':1,
@@ -23,7 +29,13 @@ function setVideo(){
     document.querySelector("#step1").style.display = "none";
     document.querySelector("#video").style.display = "block";
     document.querySelector("#step2").style.display = "block";
-}
+    for (let i=0; i<data.length; i++) {
+        if (data[i].id === vidId) {
+            alert("WARNING! The following reconstruction was already made with this video: " + data[i].title)
+            break
+        }
+    }
+})
 
 // code for frame skipping buttons
 var player;
@@ -48,9 +60,6 @@ function onPlayerReady(event) {
 }
 
 
-// normal: start time, end time, dials, move
-// set: time, set, state
-// flip: start time, end time, flip, x2, state 9: x, 10: y, 11: z
 const clockElement = document.querySelector("#clock");
 
 let recon = [];
