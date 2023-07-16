@@ -18,3 +18,18 @@
 .text {
     margin-top: 10px;
 }
+#search {
+    border: 2px solid rgb(40, 103, 128);
+    border-radius: 4px;
+    width: 90vw;
+    max-width: 1180px;
+    padding: 12px 10px;
+    margin-top: 5px;
+    background-color: rgb(70,70,70);
+    color: white;
+    font-size: large;
+}
+#badSearch {
+    margin-bottom: 100px;
+    font-size: 25px;
+}   

@@ -54,8 +54,11 @@ export function onRequest(context) {
         <div id="nav">
             <a href="/" id="home"><img src="/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
+        
         <br><br>
-    
+        <input type="text" id="search" placeholder="Search"></input>
+        <br><br>
+        <div id="badSearch" style="display: none">Sorry, but there aren't any reconstructions that match your search.</div>
         <div id="grid-container">${grid}</div>
         
         <br><br>
@@ -66,6 +69,7 @@ export function onRequest(context) {
             <a href="/reconstruct/">Make Reconstruction</a>
             <a href="https://github.com/JoshM2/ClockDB" target="_blank">GitHub</a>
         </footer>
+        <script src="/js/search.js"></script>
     </body>
     </html>`
 
