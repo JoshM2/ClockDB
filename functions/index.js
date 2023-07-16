@@ -7,7 +7,9 @@ export function onRequest(context) {
         .sort((a, b) => a.solveStart - b.solveStart)
         .map(obj => obj.index);
 
-    // the following two lines are a temporary solution to put Niklas' average onto the site.
+    // the following four lines are a temporary solution to put averages onto the site.
+    sortedIndexes = sortedIndexes.filter(number => ![30, 31, 32, 33, 34].includes(number));
+    sortedIndexes.unshift(30);
     sortedIndexes = sortedIndexes.filter(number => ![15, 16, 17, 18, 19].includes(number));
     sortedIndexes.unshift(15);
 
@@ -17,7 +19,7 @@ export function onRequest(context) {
         for (let x=0; x < data[i].tags.length; x++) {
             tagsHTML += `<span class='tags' style='background-color:${data[i].tags[x][1]};'>${data[i].tags[x][0]}</span>`;
         }
-        //the following two lines are a temporary solution to put Niklas's average onto the site. This removes the individual solve time from the card.
+        //the following two lines are a temporary solution to put averages onto the site. This removes the individual solve time from the card.
         let title = data[i].title;
         let firstPart = title.includes(" - ") ? title.split(" - ")[0] : title; 
         grid += `<a href="/r/${i}" class="grid-item">
@@ -57,7 +59,7 @@ export function onRequest(context) {
         <div id="grid-container">${grid}</div>
         
         <br><br>
-        <a href="/top-reconstructors/"><u>Thanks to everyone who made a reconstruction!</u></a>
+        <a href="/top-reconstructors/"><u>Thanks to everyone who has made a reconstruction!</u></a>
         <br><br><br><br>
         <footer>
             <a href="/contact/">Contact</a>
