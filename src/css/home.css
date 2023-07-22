@@ -21,8 +21,9 @@
 #search {
     border: 2px solid rgb(40, 103, 128);
     border-radius: 4px;
-    width: 90vw;
-    max-width: 1180px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
     padding: 12px 10px;
     margin-top: 5px;
     background-color: rgb(70,70,70);

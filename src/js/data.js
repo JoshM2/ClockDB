@@ -572,4 +572,36 @@ export const reconstructionData = [
         "author": "Jules Graham",
         "average": [[30,0.01,4.68],[31,16.80,4.09],[32,31.03,4.22],[33,44.17,4.31],[34,77.87,4.16]]
     },
+    {
+        "title": "Caleb Trelford 2.84 Single",
+        "wcaid": "2015TREL02",
+        "id": "wRfrhx0ldOE",
+        "recon": [[0.01,"set",[9,10,6,9,10,10,5,8,1,0,3],[1,1,1,0]],[8.07,8.17,[2,6,8],-5],[8.47,8.53,[1,2,4,5],-1],[9,9.07,[0,1,2,3,4,5],-1],[8.8,8.9,[6,8],3],[9.13,9.2,[8],-1],[9.2,9.3,[0,1,2,3,4,5,6,7],2],[9.57,9.67,[6],4],[9.53,9.57,[0,1,2,3,4,5,7,8],-1],[9.9,10.03,[2],3],[9.9,10.03,[0,1,3,4,5,6,7,8],6],[10.27,10.37,[0,1,2,3,4,5,6,7,8],-3]],
+        "startTime": 7,
+        "solveStart": [7.73,2.84],
+        "tags": [["Official","gray"],["Sheerin","lightblue"]],
+        "scramble": "UR3- DR4- DL2+ UL2+ U3+ R4- D2+ L4- ALL4+ y2 U3+ R4+ D6+ L2+ ALL1+ DL",
+        "inspection": "x2 z",
+        "solution": "DL(0+,5-) UL1- L(1-,3+) ur(2+,1-) dr(1-,4+) ur(3+,6+) ALL3-",
+        "date": "July 15, 2023",
+        "competitionName": "DFW Cubing Summer 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/DFWCubingSummer2023",
+        "author": "Joshua Marriott"
+    },
+    {
+        "title": "Carter Thomas 3.13 Single",
+        "wcaid": "2018THOM29",
+        "id": "kp2P5TrSDSw",
+        "recon": [[0.01,'set',[1,2,3,6,6,10,11,6,2,1,2],[0,0,0,1]],[12.97,13.07,[3,4,6,7],-4],[13.17,13.23,[0,1,3,4,6,7],-4],[13.40,13.53,[0,1,3,4,5,6,7,8],2],[13.57,13.73,'flip','y2',[11,6,3,2,7,6,5,4,4,0]],[13.83,13.93,[3,4,6,7],-1],[14.13,14.23,[1,2,4,5],-3],[14.37,14.47,[1,2,4,5,7,8],-2],[14.60,14.73,[1,2,3,4,5,6,7],1],[14.80,14.90,[1,2,3,4,5,6,7,8],-3],[15.03,15.13,[0,1,3,4,5,7,8],3],[15.27,15.40,[0,1,3,4,5,6,7,8],-6],[15.53,15.67,[0,1,2,3,4,5,6,7,8],4]],
+        "startTime": 12,
+        "solveStart": [12.70,3.13],
+        "tags": [["CR","#FFEB3B"],["Official","gray"],["Flip","lightgreen"]],
+        "scramble": "UR1- DR4- DL2+ UL6+ U4+ R4+ D1+ L1- ALL6+ y2 U0+ R0+ D4+ L4- ALL6+ DR",
+        "inspection": "z2",
+        "solution": "UR4- R4- dl2+ y2 UL1+ DR3+ R2+ \\1- dl3+ /3- dr6- ALL4-",
+        "date": "December 18, 2022",
+        "competitionName": "Naperville Winter B 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/NapervilleWinterB2022",
+        "author": "Carter Thomas"
+    }
 ]
