@@ -20,7 +20,7 @@ export function onRequest(context) {
     let averageTimesHTML = '';
     if (data[solve].average != undefined) {
         for(let i=0; i<data[solve].average.length; i++) {
-            averageTimesHTML += `<div class="averageTimeBox s${data[solve].average[i][0]}">${data[solve].average[i][2].toFixed(2)}</div>`
+            averageTimesHTML += `<div class="averageTimeBox s${data[solve].average[i][0]}">${data[solve].average[i][2]}</div>`
         }
         averageTimesHTML += "<br><br>"
     }

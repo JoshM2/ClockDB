@@ -255,7 +255,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
+        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 4.51",
@@ -272,7 +272,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
+        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 4.06",
@@ -289,7 +289,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
+        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 3.17",
@@ -306,7 +306,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Joshua Marriott",
-        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
+        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
     },
     {
         "title": "Niklas Aasen Eliasson 3.54 Average - 3.30",
@@ -323,7 +323,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Joshua Marriott",
-        "average": [[15,0.01,3.27],[16,15.17,4.51],[17,32.03,4.06],[18,49.00,3.17],[19,68.00,3.30]]
+        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
     },
     {
         "title": "Jules Graham 2.73 Single",
@@ -619,7 +619,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,3.29],[38,16.80,3.86],[39,31.03,3.27],[40,44.17,3.36],[41,77.87,6.69]]
+        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
     },
     { 
         "title": "Tommy Cherry 3.50 Average - 3.86",
@@ -636,7 +636,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,3.29],[38,16.80,3.86],[39,31.03,3.27],[40,44.17,3.36],[41,77.87,6.69]]
+        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
     },
     {
         "title": "Tommy Cherry 3.50 Average - 3.27",
@@ -653,7 +653,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,3.29],[38,16.80,3.86],[39,31.03,3.27],[40,44.17,3.36],[41,77.87,6.69]]
+        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
     },
     {
         "title": "Tommy Cherry 3.50 Average - 3.36",
@@ -670,7 +670,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,3.29],[38,16.80,3.86],[39,31.03,3.27],[40,44.17,3.36],[41,77.87,6.69]]
+        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
     },
     {
         "title": "Tommy Cherry 3.50 Average - DNF(6.69)",
@@ -687,6 +687,6 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,3.29],[38,16.80,3.86],[39,31.03,3.27],[40,44.17,3.36],[41,77.87,6.69]]
+        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
     }
 ]
