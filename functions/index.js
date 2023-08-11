@@ -8,6 +8,8 @@ export function onRequest(context) {
         .map(obj => obj.index);
 
     // the following six lines are a temporary solution to put averages onto the site.
+    sortedIndexes = sortedIndexes.filter(number => ![45, 46, 47, 48, 49].includes(number));
+    sortedIndexes.unshift(45);
     sortedIndexes = sortedIndexes.filter(number => ![30, 31, 32, 33, 34].includes(number));
     sortedIndexes.unshift(30);
     sortedIndexes = sortedIndexes.filter(number => ![15, 16, 17, 18, 19].includes(number));
@@ -60,10 +62,10 @@ export function onRequest(context) {
         <br><br>
         <input type="text" id="search" placeholder="Search"></input>
         <br><br>
-        <div id="badSearch" style="display: none">Sorry, but there aren't any reconstructions that match your search.</div>
         <div id="grid-container">${grid}</div>
-        
+        <div id="badSearch" style="display: none">Sorry, but there aren't any reconstructions that match your search.</div>
         <br><br>
+        
         <a href="/top-reconstructors/"><u>Thanks to everyone who has made a reconstruction!</u></a>
         <br><br><br><br>
         <footer>
