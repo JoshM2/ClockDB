@@ -12,6 +12,8 @@ export function onRequest(context) {
     sortedIndexes.unshift(45);
     sortedIndexes = sortedIndexes.filter(number => ![30, 31, 32, 33, 34].includes(number));
     sortedIndexes.unshift(30);
+    sortedIndexes = sortedIndexes.filter(number => ![54, 55, 56, 57, 58].includes(number));
+    sortedIndexes.unshift(54);
     sortedIndexes = sortedIndexes.filter(number => ![15, 16, 17, 18, 19].includes(number));
     sortedIndexes.unshift(15);
     sortedIndexes = sortedIndexes.filter(number => ![37, 38, 39, 40, 41].includes(number));
