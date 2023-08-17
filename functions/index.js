@@ -19,22 +19,27 @@ export function onRequest(context) {
     sortedIndexes = sortedIndexes.filter(number => ![37, 38, 39, 40, 41].includes(number));
     sortedIndexes.unshift(37);
 
-    let grid = "";
+    let officialGrid = "";
+    let unofficialGrid = "";
     sortedIndexes.forEach(i => {
         let tagsHTML = ""
         for (let x=0; x < data[i].tags.length; x++) {
             tagsHTML += `<span class='tags' style='background-color:${data[i].tags[x][1]};'>${data[i].tags[x][0]}</span>`;
         }
-        //the following two lines are a temporary solution to put averages onto the site. This removes the individual solve time from the card.
-        let title = data[i].title;
-        let firstPart = title.includes(" - ") ? title.split(" - ")[0] : title; 
-        grid += `<a href="/r/${i}" class="grid-item">
+        let title = data[i].title.includes(" - ") ? data[i].title.split(" - ")[0] : data[i].title; 
+        let tile = `<a href="/r/${i}" class="grid-item">
             <div>
                 <img width="100%" aspect-ratio:"16x8" src="https://img.youtube.com/vi/${data[i].id}/0.jpg"></img>
             </div>
-            <h2 class="solveTitle">${firstPart}</h2>
-            ${tagsHTML}
+            <h2 class="solveTitle">${title}</h2>
+            <div id="tagsDiv">${tagsHTML}</div>
         </a>`
+        if (data[i].competitionName != "home (unofficial)") {
+            officialGrid += tile;
+        }
+        else {
+            unofficialGrid += tile;
+        }
     })
 
     const html = `<!DOCTYPE html>
@@ -60,11 +65,45 @@ export function onRequest(context) {
         <div id="nav">
             <a href="/" id="home"><img src="/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
-        
         <br><br>
-        <input type="text" id="search" placeholder="Search"></input>
+        <input type="text" id="search" placeholder="Search"></input><br>
+
+        <label class="filter grayLabel">
+            <input type="checkbox" id="officialBox">Official
+        </label>
+        <label class="filter grayLabel">
+            <input type="checkbox" id="unofficialBox">Unofficial
+        </label>
+        <label class="filter grayLabel">
+            <input type="checkbox" id="singleBox">Single
+        </label>
+        <label class="filter grayLabel">
+            <input type="checkbox" id="averageBox">Average
+        </label>
+        <label class="filter flipLabel">
+            <input type="checkbox" id="flipBox">Flip
+        </label>
+        <label class="filter simulLabel">
+            <input type="checkbox" id="simulBox">7-Simul
+        </label>
+        <label class="filter sheerinLabel">
+            <input type="checkbox" id="sheerinBox">Sheerin
+        </label>
+        <label class="filter wrLabel">
+            <input type="checkbox" id="wrBox">WR
+        </label>
+        <label class="filter crLabel">
+            <input type="checkbox" id="crBox">CR
+        </label>
+        <label class="filter nrLabel">
+            <input type="checkbox" id="nrBox">NR
+        </label>
+
         <br><br>
-        <div id="grid-container">${grid}</div>
+        <h2 id="official">Official Solves</h2>
+        <div id="grid-container">${officialGrid}</div><br>
+        <h2 id="unofficial">Unofficial Solves</h2>
+        <div id="grid-container">${unofficialGrid}</div><br>
         <div id="badSearch" style="display: none">Sorry, but there aren't any reconstructions that match your search.</div>
         <br><br>
         
