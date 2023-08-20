@@ -7,7 +7,7 @@ export function onRequest(context) {
         .sort((a, b) => a.solveStart - b.solveStart)
         .map(obj => obj.index);
 
-    // the following six lines are a temporary solution to put averages onto the site.
+    // the following lines are a temporary solution to put averages onto the site.
     sortedIndexes = sortedIndexes.filter(number => ![45, 46, 47, 48, 49].includes(number));
     sortedIndexes.unshift(45);
     sortedIndexes = sortedIndexes.filter(number => ![30, 31, 32, 33, 34].includes(number));
@@ -29,7 +29,7 @@ export function onRequest(context) {
         let title = data[i].title.includes(" - ") ? data[i].title.split(" - ")[0] : data[i].title; 
         let tile = `<a href="/r/${i}" class="grid-item">
             <div>
-                <img width="100%" aspect-ratio:"16x8" src="https://img.youtube.com/vi/${data[i].id}/0.jpg"></img>
+                <img width="100%" aspect-ratio:"16x8" alt="" src="https://img.youtube.com/vi/${data[i].id}/mqdefault.jpg"></img>
             </div>
             <h2 class="solveTitle">${title}</h2>
             <div id="tagsDiv">${tagsHTML}</div>

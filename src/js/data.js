@@ -416,7 +416,7 @@ export const reconstructionData = [
         "tags": [["CR","#FFEB3B"],["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
         "scramble": "UR2- DR5- DL2+ UL5- U1- R4- D2- L1+ ALL2- y2 U5- R6+ D3- L1- ALL2- UL",
         "inspection": "x2 z'",
-        "solution": "DL1- UR4- UL6- dr5+ y2 DL1+ UR3+ UL3+ L1+ ur3+ ul6- ",
+        "solution": "DL1- UR4- UL6- dr5+ y2 DL1+ UR3+ UL3+ L1+ ur3+ ul6-",
         "date": "October 01, 2022",
         "competitionName": "Stevenage Autumn B 2022",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/StevenageAutumnB2022",
@@ -988,5 +988,22 @@ export const reconstructionData = [
         "competitionName": "Leeds Open 2019",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/LeedsOpen2019",
         "author": "Jacob Chambers"
-    }
+    },
+    {
+        "title": "Jacob Chambers 2.80 Single",
+        "wcaid": "2017CHAM09",
+        "id": "lSBM3NUgw4w",
+        "recon": [[0.01,"set",[4,0,8,9,7,8,5,6,4,0,2],[0,1,1,0]],[5.97,6.07,[1,2,4,5],-1],[6.2,6.24,[0,1,3,4,6,7],1],[6.41,6.49,[4,5,7,8],3],[6.58,6.64,[3,4,5,6,7,8],2],[6.68,6.94,"flip","x2",[5,8,7,0,8,6,8,10,9,1]],[7.08,7.18,[0,1,3,4],-2],[7.28,7.38,[1,2,4,5],4],[7.41,7.51,[0,1,2,3,4,5,7,8],-2],[7.68,7.71,[0,1,2,3,4,5,6,7],-1],[7.85,7.91,[0,1,3,4,5,6,7,8],1],[8.08,8.18,[1,2,3,4,5,6,7,8],5],[8.3,8.34,[0,1,2,3,4,5,6,7,8],-1]],
+        "startTime": 5,
+        "endTime": 13,
+        "solveStart": [5.73,2.80],
+        "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR1- DR1- DL2- UL5+ U2- R0+ D3+ L1+ ALL1+ y2 U1+ R2- D5- L1- ALL2+ UR DL",
+        "inspection": "z2",
+        "solution": "DL1- R1+ UL3+ U2+ x2 UR2+ UL4- dr2+ dl1+ ul1- ur5- ALL1+",
+        "date": "March 25, 2023",
+        "competitionName": "Wiltshire Spring 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/WiltshireSpring2023",
+        "author": "Jules Graham"
+    },
 ]

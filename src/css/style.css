@@ -131,8 +131,8 @@ a {
 }
 
 .bigCircle {
-    aspect-ratio: 1/1;
     width: 430px;
+    height: 430px;
     border-radius: 20%;
     background-color: black;
     position: absolute;
@@ -140,8 +140,8 @@ a {
 
 }
 .circle {
-    aspect-ratio: 1/1;
     width: 110px;
+    height: 110px;
     border-radius: 50%;
     position: absolute;
     background-color: white;
@@ -156,8 +156,8 @@ a {
     transform: translate(50px, 2px);
 }
 .twelve {
-    aspect-ratio: 1/1;
     width: 10px;
+    height: 10px;
     border-radius: 50%;
     position: absolute;
     background-color: red;
@@ -192,8 +192,8 @@ a {
     top: 280px;
 }
 .pin {
-    aspect-ratio: 1/1;
     width: 30px;
+    height: 30px;
     border-radius: 50%;
     position: absolute;
     background-color: gray;
