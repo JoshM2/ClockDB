@@ -158,7 +158,7 @@ function animate() {
         document.querySelector("#author").innerHTML = data[solve].author;
         document.title = data[solve].title + " - ClockDB";
         document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;
-        document.querySelector("#solution").innerHTML = "Solution: " + data[solve].solution;
+        document.querySelector("#solution").innerHTML = `Solution: ${data[solve].inspection} ${data[solve].solution}`;
         window.history.replaceState({ path: "/r/"+solve }, "", "/r/"+solve);
         recon = data[solve].recon;
         reconLength = recon.length;
