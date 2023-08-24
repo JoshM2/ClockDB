@@ -123,9 +123,9 @@ function animate() {
             averageTimeBoxElements[s].classList.remove("selectedTime");
         }
         document.querySelector(`.s${solve}`).classList.add('selectedTime');
-        document.querySelector("#title").innerHTML = data[solve].name + " " + data[solve].title;
-        document.querySelector("#author").innerHTML = data[solve].name + " " + data[solve].author;
-        document.title = data[solve].title + " - ClockDB";
+        document.querySelector("#title").innerHTML = `<a href="/persons/${data[solve].wcaid}">${data[solve].name}</a> ${data[solve].title}`;
+        document.querySelector("#author").innerHTML = data[solve].author;
+        document.title = data[solve].name + " " + data[solve].title + " - ClockDB";
         document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;
         document.querySelector("#solution").innerHTML = `Solution: ${data[solve].inspection} ${data[solve].solution}`;
         window.history.replaceState({ path: "/r/"+solve }, "", "/r/"+solve);
