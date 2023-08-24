@@ -154,7 +154,7 @@ function animate() {
             averageTimeBoxElements[s].classList.remove("selectedTime");
         }
         document.querySelector(`.s${solve}`).classList.add('selectedTime');
-        document.querySelector("#title").innerHTML = data[solve].title;
+        document.querySelector("#title").innerHTML = data[solve].name + " " + data[solve].title;
         document.querySelector("#author").innerHTML = data[solve].author;
         document.title = data[solve].title + " - ClockDB";
         document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;

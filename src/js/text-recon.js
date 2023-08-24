@@ -116,14 +116,14 @@ function animate() {
     pinLElement.style.backgroundColor = pinColors[2];
     pinCElement.style.backgroundColor = pinColors[3];
 
-    // updates the solve if in an average and the video is on a new solve
+    // updates the solve if in an average and the video is on a new solve (I have no clue if this code works for text reconstructions btw so I guess we'll see if an ao5 is made.)
     if (solveOfAverage != previousSolveOfAverage) {
         solve = solveOfAverage;
         for (let s = 0; s < averageTimeBoxElements.length; s++) {
             averageTimeBoxElements[s].classList.remove("selectedTime");
         }
         document.querySelector(`.s${solve}`).classList.add('selectedTime');
-        document.querySelector("#title").innerHTML = data[solve].title;
+        document.querySelector("#title").innerHTML = data[solve].name + " " + data[solve].title;
         document.querySelector("#author").innerHTML = data[solve].author;
         document.title = data[solve].title + " - ClockDB";
         document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;
