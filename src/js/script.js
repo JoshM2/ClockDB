@@ -155,7 +155,7 @@ function animate() {
         }
         document.querySelector(`.s${solve}`).classList.add('selectedTime');
         document.querySelector("#title").innerHTML = data[solve].name + " " + data[solve].title;
-        document.querySelector("#author").innerHTML = data[solve].author;
+        document.querySelector("#author").innerHTML = data[solve].name + " " + data[solve].author;
         document.title = data[solve].title + " - ClockDB";
         document.querySelector("#scramble").innerHTML = "Scramble: " + data[solve].scramble;
         document.querySelector("#solution").innerHTML = `Solution: ${data[solve].inspection} ${data[solve].solution}`;
