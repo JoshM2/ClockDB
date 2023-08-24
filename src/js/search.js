@@ -7,12 +7,15 @@ let unofficialHeader = document.querySelector("#unofficial");
 function updateSearch() {
     let searchParts = searchElement.value.split(" ")
     for (let g=0; g < gridItems.length; g++) {
+        // shows all tiles
         gridItems[g].style.display = "block";
+        // hides tiles that don't match search
         for (let i=0; i < searchParts.length; i++) {
             if (!gridItems[g].text.toLowerCase().includes(searchParts[i].toLowerCase())) {
                 gridItems[g].style.display = "none";
             }
         }
+        // official/unofficial selectors
         if (document.querySelector("#officialBox").checked && !document.querySelector("#unofficialBox").checked) {
             if (!gridItems[g].text.includes("Official")) {
                 gridItems[g].style.display = "none";
@@ -23,16 +26,18 @@ function updateSearch() {
                 gridItems[g].style.display = "none";
             }
         }
+        // single/average selectors
         if (document.querySelector("#singleBox").checked && !document.querySelector("#averageBox").checked) {
             if (!gridItems[g].text.includes("Single")) {
                 gridItems[g].style.display = "none";
             }
         }
-        if (!document.querySelector("#singleBox").checked && document.querySelector("#averageBox").checked) {
+        else if (!document.querySelector("#singleBox").checked && document.querySelector("#averageBox").checked) {
             if (gridItems[g].text.includes("Single")) {
                 gridItems[g].style.display = "none";
             }
         }
+        // nr/cr/wr selectors
         if (document.querySelector("#nrBox").checked || document.querySelector("#crBox").checked || document.querySelector("#wrBox").checked) {
             if (!gridItems[g].text.includes("NROfficial") && !gridItems[g].text.includes("CROfficial") && !gridItems[g].text.includes("WROfficial")) {
                 gridItems[g].style.display = "none";
@@ -47,6 +52,7 @@ function updateSearch() {
                 gridItems[g].style.display = "none";
             }
         }
+        // flip/7-simul/sheerin selectors
         if (document.querySelector("#flipBox").checked || document.querySelector("#simulBox").checked || document.querySelector("#sheerinBox").checked) {
             if (gridItems[g].text.includes("Flip") && !document.querySelector("#flipBox").checked) {
                 gridItems[g].style.display = "none";
@@ -55,6 +61,17 @@ function updateSearch() {
                 gridItems[g].style.display = "none";
             }
             else if (gridItems[g].text.includes("Sheerin") && !document.querySelector("#sheerinBox").checked) {
+                gridItems[g].style.display = "none";
+            }
+        }
+        // video/text/all selector
+        if (document.querySelector("#videoOnly input[type='radio']").checked) {
+            if (!gridItems[g].innerHTML.includes("youtube.com")) {
+                gridItems[g].style.display = "none";
+            }
+        }
+        else if (document.querySelector("#textOnly input[type='radio']").checked) {
+            if (gridItems[g].innerHTML.includes("youtube.com")) {
                 gridItems[g].style.display = "none";
             }
         }
@@ -91,3 +108,22 @@ checkboxes.forEach(checkbox => {
         updateSearch();
     });
 });
+
+document.querySelector("#videoOnly").addEventListener("click", function() {
+    updateSearch();
+    document.querySelector("#videoOnly").classList.add("typeSelected");
+    document.querySelector("#videoText").classList.remove("typeSelected");
+    document.querySelector("#textOnly").classList.remove("typeSelected");
+})
+document.querySelector("#videoText").addEventListener("click", function() {
+    updateSearch();
+    document.querySelector("#videoOnly").classList.remove("typeSelected");
+    document.querySelector("#videoText").classList.add("typeSelected");
+    document.querySelector("#textOnly").classList.remove("typeSelected");
+})
+document.querySelector("#textOnly").addEventListener("click", function() {
+    updateSearch();
+    document.querySelector("#videoOnly").classList.remove("typeSelected");
+    document.querySelector("#videoText").classList.remove("typeSelected");
+    document.querySelector("#textOnly").classList.add("typeSelected");
+})

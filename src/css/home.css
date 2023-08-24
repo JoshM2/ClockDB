@@ -47,7 +47,7 @@
     margin-left: 2px;
     line-height: 1.7;
     white-space: nowrap;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .filter:checked {
     opacity: 1;
@@ -73,3 +73,27 @@ background-color: #00E676;
 .wrLabel {
     background-color: #F44336;
 } 
+.reconType {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 4px;
+    line-height: 1.7;
+    white-space: nowrap;
+    background-color: #383838;
+}
+input[type="radio"] {
+    display: none;
+}
+#videoOnly {
+    border-radius: 10px 0px 0px 10px;
+}
+#textOnly {
+    border-radius: 0px 10px 10px 0px;
+}
+.typeSelected {
+    background-color: white;
+    color: black;
+}

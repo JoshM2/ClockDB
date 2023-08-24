@@ -4,11 +4,15 @@ export function onRequest(context) {
 
     let r = {};
     for (let i = 0; i < data.length; i++) {
-    if (data[i].author in r) {
-        r[data[i].author].push(i);
-    } else {
-        r[data[i].author] = [i];
-    }
+        if (data[i].id == undefined) {
+
+        }
+        else if (data[i].author in r) {
+            r[data[i].author].push(i);
+        }
+        else {
+            r[data[i].author] = [i];
+        }
     }
 
     const entries = Object.entries(r);
@@ -18,7 +22,7 @@ export function onRequest(context) {
     let reconstructorHTML = "";
     const keys = Object.keys(sortedDictionary);
     for (let i = 0; i < keys.length; i++) {
-    reconstructorHTML += `<div>${keys[i]} - ${sortedDictionary[keys[i]].length}</div>`;
+        reconstructorHTML += `<div>${keys[i]} - ${sortedDictionary[keys[i]].length}</div>`;
     }
 
     const html = `<!DOCTYPE html>
@@ -37,11 +41,11 @@ export function onRequest(context) {
         <meta name="viewport" content="width=device-width">
         <title>Top Reconstructors - ClockDB</title>
         <link href="/css/style.css" rel="stylesheet" type="text/css"/>
-        <link rel="icon" type="image/x-icon" href="/clock.ico">
+        <link rel="icon" type="image/x-icon" href="/images/clock.ico">
     </head>
     <body>
         <div id="nav">
-            <a href="/" id="home"><img src="/clock.ico" width="23" height="23"> ClockDB</a>
+            <a href="/" id="home"><img src="/images/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
     
         <h1>Reconstructors</h1>
@@ -49,7 +53,7 @@ export function onRequest(context) {
         <div id="reconstructorList">${reconstructorHTML}</div>
 
         <br><br>
-        Note: a reconstructed ao5 counts as 5 reconstructed solves, hence why there there are more solves here than tiles on the home page.
+        Note: a reconstructed ao5 counts as 5 reconstructed solves, hence why there there are more solves here than tiles on the home page. Text reconstructions do not count towards this list.
         <br><br><br>    
 
         <footer>

@@ -29,9 +29,9 @@ export function onRequest(context) {
         let title = data[i].title.includes(" - ") ? data[i].title.split(" - ")[0] : data[i].title; 
         let tile = `<a href="/r/${i}" class="grid-item">
             <div>
-                <img width="100%" aspect-ratio:"16x8" alt="" src="https://img.youtube.com/vi/${data[i].id}/mqdefault.jpg"></img>
+                <img width="100%" alt="" src="${data[i].id != undefined ? 'https://img.youtube.com/vi/'+data[i].id+'/mqdefault.jpg' : '/images/thumbnails/'+i+'.png'}"></img>
             </div>
-            <h2 class="solveTitle">${title}</h2>
+            <h2 class="solveTitle">${data[i].name + " " + title}</h2>
             <div id="tagsDiv">${tagsHTML}</div>
         </a>`
         if (data[i].competitionName != "home (unofficial)") {
@@ -59,11 +59,11 @@ export function onRequest(context) {
         <title>ClockDB - Rubik's Clock Reconstructions</title>
         <link href="/css/style.css" rel="stylesheet" type="text/css"/>
         <link href="/css/home.css" rel="stylesheet" type="text/css"/>
-        <link rel="icon" type="image/x-icon" href="/clock.ico">
+        <link rel="icon" type="image/x-icon" href="/images/clock.ico">
     </head>
     <body>
         <div id="nav">
-            <a href="/" id="home"><img src="/clock.ico" width="23" height="23"> ClockDB</a>
+            <a href="/" id="home"><img src="/images/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
         <br><br>
         <input type="text" id="search" placeholder="Search"></input><br>
@@ -97,6 +97,17 @@ export function onRequest(context) {
         </label>
         <label class="filter nrLabel">
             <input type="checkbox" id="nrBox">NR
+        </label>
+
+        <br><br>
+        <label class="reconType" id="videoOnly">
+            <input type="radio" name="typeSelector">Video
+        </label>
+        <label class="reconType typeSelected" id="videoText">
+            <input type="radio" name="typeSelector">All
+        </label>
+        <label class="reconType" id="textOnly">
+            <input type="radio" name="typeSelector">Text
         </label>
 
         <br><br>

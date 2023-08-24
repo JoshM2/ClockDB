@@ -129,7 +129,26 @@ a {
 #reconstructorList {
     font-size: 20px;
 }
-
+#textInfoBox {
+    display: inline-block;
+    background-color: #383838;
+    width: 90vw;
+    max-width: 768px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.textReconControls {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 4px;
+    line-height: 1.7;
+    white-space: nowrap;
+    background-color: #383838;
+}
 .bigCircle {
     width: 430px;
     height: 430px;
