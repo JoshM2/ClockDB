@@ -61,6 +61,9 @@
 .simulLabel {
     background-color: mediumpurple;
 }
+.sfLabel {
+    background-color: lightpink;
+}
 .sheerinLabel {
     background-color: lightblue;
 }
@@ -96,4 +99,7 @@ input[type="radio"] {
 .typeSelected {
     background-color: white;
     color: black;
+}
+.labelText {
+    opacity: 1;
 }

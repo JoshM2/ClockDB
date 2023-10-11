@@ -271,7 +271,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
+        "average": [[15,"3.27"],[16,"4.51"],[17,"4.06"],[18,"3.17"],[19,"3.30"]]
     },
     {
         "name": "Niklas Aasen Eliasson",
@@ -289,7 +289,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
+        "average": [[15,"3.27"],[16,"4.51"],[17,"4.06"],[18,"3.17"],[19,"3.30"]]
     },
     {
         "name": "Niklas Aasen Eliasson",
@@ -307,7 +307,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Fengyuan Kelvin Lou",
-        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
+        "average": [[15,"3.27"],[16,"4.51"],[17,"4.06"],[18,"3.17"],[19,"3.30"]]
     },
     {
         "name": "Niklas Aasen Eliasson",
@@ -325,7 +325,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Joshua Marriott",
-        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
+        "average": [[15,"3.27"],[16,"4.51"],[17,"4.06"],[18,"3.17"],[19,"3.30"]]
     },
     {
         "name": "Niklas Aasen Eliasson",
@@ -343,7 +343,7 @@ export const reconstructionData = [
         "competitionName": "Trondheim Cube Week 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/TrondheimCubeWeek2023",
         "author": "Joshua Marriott",
-        "average": [[15,0.01,"3.27"],[16,15.17,"4.51"],[17,32.03,"4.06"],[18,49.00,"3.17"],[19,68.00,"3.30"]]
+        "average": [[15,"3.27"],[16,"4.51"],[17,"4.06"],[18,"3.17"],[19,"3.30"]]
     },
     {
         "name": "Jules Graham",
@@ -356,7 +356,7 @@ export const reconstructionData = [
         "tags": [["Unofficial","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
         "scramble": "UR4+ DR4- DL0+ UL1- U1- R4+ D5+ L2- ALL4+ y2 U0+ R2+ D1+ L5- ALL6+ UR DL UL",
         "inspection": "x2",
-        "solution": "R(5-,5+) DR(2-,2-) ur(3+, 1+) L(3-,1+) UR(1-,0+) \\(1+,3-)",
+        "solution": "R(5-,5+) DR(2-,2-) ur(3+,1+) L(3-,1+) UR(1-,0+) \\(1+,3-)",
         "date": "June 18, 2023",
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=frBcod-5CLg",
@@ -414,7 +414,7 @@ export const reconstructionData = [
         "author": "Fengyuan Kelvin Lou"
     },
     {
-        "name": " Zayd Chaudhry",
+        "name": "Zayd Chaudhry",
         "title": "3.11 Single",
         "wcaid": "2019CHAU12",
         "id": "EWOnHJ_hMWY",
@@ -533,7 +533,7 @@ export const reconstructionData = [
         "competitionName": "NZ South Island Championship 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChampionship2023",
         "author": "Jules Graham",
-        "average": [[30,0.01,4.68],[31,16.80,4.09],[32,31.03,4.22],[33,44.17,4.31],[34,77.87,4.16]]
+        "average": [[30,"4.68"],[31,"4.09"],[32,"4.22"],[33,"4.31"],[34,"4.16"]]
     },
     {
         "name": "Jules Graham",
@@ -551,7 +551,7 @@ export const reconstructionData = [
         "competitionName": "NZ South Island Championship 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChampionship2023",
         "author": "Jules Graham",
-        "average": [[30,0.01,4.68],[31,16.80,4.09],[32,31.03,4.22],[33,44.17,4.31],[34,77.87,4.16]]
+        "average": [[30,"4.68"],[31,"4.09"],[32,"4.22"],[33,"4.31"],[34,"4.16"]]
     },
     {
         "name": "Jules Graham",
@@ -569,7 +569,7 @@ export const reconstructionData = [
         "competitionName": "NZ South Island Championship 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChampionship2023",
         "author": "Jules Graham",
-        "average": [[30,0.01,4.68],[31,16.80,4.09],[32,31.03,4.22],[33,44.17,4.31],[34,77.87,4.16]]
+        "average": [[30,"4.68"],[31,"4.09"],[32,"4.22"],[33,"4.31"],[34,"4.16"]]
     },
     {
         "name": "Jules Graham",
@@ -587,7 +587,7 @@ export const reconstructionData = [
         "competitionName": "NZ South Island Championship 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChampionship2023",
         "author": "Jules Graham",
-        "average": [[30,0.01,4.68],[31,16.80,4.09],[32,31.03,4.22],[33,44.17,4.31],[34,77.87,4.16]]
+        "average": [[30,"4.68"],[31,"4.09"],[32,"4.22"],[33,"4.31"],[34,"4.16"]]
     },
     {
         "name": "Jules Graham",
@@ -605,7 +605,7 @@ export const reconstructionData = [
         "competitionName": "NZ South Island Championship 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChampionship2023",
         "author": "Jules Graham",
-        "average": [[30,0.01,4.68],[31,16.80,4.09],[32,31.03,4.22],[33,44.17,4.31],[34,77.87,4.16]]
+        "average": [[30,"4.68"],[31,"4.09"],[32,"4.22"],[33,"4.31"],[34,"4.16"]]
     },
     {
         "name": "Caleb Trelford",
@@ -657,7 +657,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
+        "average": [[37,"3.29"],[38,"3.86"],[39,"3.27"],[40,"3.36"],[41,"DNF"]]
     },
     { 
         "name": "Tommy Cherry",
@@ -675,7 +675,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
+        "average": [[37,"3.29"],[38,"3.86"],[39,"3.27"],[40,"3.36"],[41,"DNF"]]
     },
     {
         "name": "Tommy Cherry",
@@ -693,7 +693,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
+        "average": [[37,"3.29"],[38,"3.86"],[39,"3.27"],[40,"3.36"],[41,"DNF"]]
     },
     {
         "name": "Tommy Cherry",
@@ -711,7 +711,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
+        "average": [[37,"3.29"],[38,"3.86"],[39,"3.27"],[40,"3.36"],[41,"DNF"]]
     },
     {
         "name": "Tommy Cherry",
@@ -729,7 +729,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2023",
         "author": "Joshua Marriott",
-        "average": [[37,0.01,"3.29"],[38,16.80,"3.86"],[39,31.03,"3.27"],[40,44.17,"3.36"],[41,77.87,"DNF"]]
+        "average": [[37,"3.29"],[38,"3.86"],[39,"3.27"],[40,"3.36"],[41,"DNF"]]
     },
     {
         "name": "Cameron Miller",
@@ -768,12 +768,11 @@ export const reconstructionData = [
     },
     {
         "name": "Niklas Aasen Eliasson",
-        "title": "2.89 Single",
+        "title": "3.55 Average - 2.89",
         "wcaid": "2021ELIA01",
         "id": "X25-RNYyTkw",
-        "recon": [[0.01,"set",[1,4,1,6,8,4,11,5,11,1,3],[0,1,1,1]],[32.9,33,[1,2,3,4,5,6,7,8],2],[33.17,33.33,[0,2],5],[33.57,33.7,[3,4,6,7],-4],[33.63,33.7,[0,2,8],-2],[34.07,34.13,[1,2,3,4,5,6,7],2],[33.97,34.13,[0,8],-4],[34.37,34.53,[1,2,4,5],-2],[34.47,34.73,[0,6,8],6],[34.9,34.97,[0,1,2,3,4,5],-1],[35.17,35.33,[0,1,2,3,4,5,6,7],-5],[35.17,35.23,[8],-1]],
+        "recon": [[0.01,"set",[11,7,1,9,3,6,7,4,10,0,3],[0,1,1,0],67],[23.00,"set",[1,4,1,6,8,4,11,5,11,1,3],[0,1,1,1],44],[32.9,33,[1,2,3,4,5,6,7,8],2],[33.17,33.33,[0,2],5],[33.57,33.7,[3,4,6,7],-4],[33.63,33.7,[0,2,8],-2],[34.07,34.13,[1,2,3,4,5,6,7],2],[33.97,34.13,[0,8],-4],[34.37,34.53,[1,2,4,5],-2],[34.47,34.73,[0,6,8],6],[34.9,34.97,[0,1,2,3,4,5],-1],[35.17,35.33,[0,1,2,3,4,5,6,7],-5],[35.17,35.23,[8],-1],[40.47,"set",[4,6,8,10,12,9,8,7,3,1,2],[1,1,0,0],68],[58.20,"set",[11,1,7,4,8,8,1,10,6,1,2],[1,0,1,1],69],[86.77,"set",[5,12,4,2,3,9,10,4,2,0,0],[1,1,1,0],70]],
         "startTime": 32,
-        "endTime": 41,
         "solveStart": [32.60,2.89],
         "tags": [["NR","#00E676"],["Official","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
         "scramble": "UR3+ DR6+ DL5- UL4+ U2- R3+ D2- L0+ ALL3- y2 U3+ R2+ D4+ L4+ ALL5- UR DR DL",
@@ -782,7 +781,8 @@ export const reconstructionData = [
         "date": "July 23, 2023",
         "competitionName": "24 Hours in Flen 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/24HoursinFlen2023",
-        "author": "Joshua Marriott"
+        "author": "Joshua Marriott",
+        "average": [[67,"3.11"],[44,"2.89"],[68,"4.27"],[69,"3.28"],[70,"5.36"]]
     },
     {
         "name": "Stanley Chapel",
@@ -800,7 +800,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2019",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2019",
         "author": "Calvin Chiu",
-        "average": [[45,0.01,"5.91"],[46,17.10,"4.80"],[47,35.00,"4.91"],[48,50.80,"4.77"],[49,63.50,"5.73"]]
+        "average": [[45,"5.91"],[46,"4.80"],[47,"4.91"],[48,"4.77"],[49,"5.73"]]
     },
     {
         "name": "Stanley Chapel",
@@ -818,7 +818,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2019",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2019",
         "author": "Calvin Chiu",
-        "average": [[45,0.01,"5.91"],[46,17.10,"4.80"],[47,35.00,"4.91"],[48,50.80,"4.77"],[49,63.50,"5.73"]]
+        "average": [[45,"5.91"],[46,"4.80"],[47,"4.91"],[48,"4.77"],[49,"5.73"]]
     },
     {
         "name": "Stanley Chapel",
@@ -836,7 +836,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2019",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2019",
         "author": "Calvin Chiu",
-        "average": [[45,0.01,"5.91"],[46,17.10,"4.80"],[47,35.00,"4.91"],[48,50.80,"4.77"],[49,63.50,"5.73"]]
+        "average": [[45,"5.91"],[46,"4.80"],[47,"4.91"],[48,"4.77"],[49,"5.73"]]
     },
     {
         "name": "Stanley Chapel",
@@ -854,7 +854,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2019",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2019",
         "author": "Calvin Chiu",
-        "average": [[45,0.01,"5.91"],[46,17.10,"4.80"],[47,35.00,"4.91"],[48,50.80,"4.77"],[49,63.50,"5.73"]]
+        "average": [[45,"5.91"],[46,"4.80"],[47,"4.91"],[48,"4.77"],[49,"5.73"]]
     },
     {
         "name": "Stanley Chapel",
@@ -872,7 +872,7 @@ export const reconstructionData = [
         "competitionName": "CubingUSA Nationals 2019",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/CubingUSANationals2019",
         "author": "Calvin Chiu",
-        "average": [[45,0.01,"5.91"],[46,17.10,"4.80"],[47,35.00,"4.91"],[48,50.80,"4.77"],[49,63.50,"5.73"]]
+        "average": [[45,"5.91"],[46,"4.80"],[47,"4.91"],[48,"4.77"],[49,"5.73"]]
     },
     {
         "name": "Suen Ming Chi",
@@ -958,7 +958,7 @@ export const reconstructionData = [
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=aDEGHT67yLY",
         "author": "NJ Kim",
-        "average": [[54,0.01,"3.90"],[55,38.00,"5.72"],[56,67.00,"4.42"],[57,97.00,"4.03"],[58,127.00,"4.17"]]
+        "average": [[54,"3.90"],[55,"5.72"],[56,"4.42"],[57,"4.03"],[58,"4.17"]]
     },
     {
         "name": "NJ Kim",
@@ -976,7 +976,7 @@ export const reconstructionData = [
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=aDEGHT67yLY",
         "author": "NJ Kim",
-        "average": [[54,0.01,"3.90"],[55,38.00,"5.72"],[56,67.00,"4.42"],[57,97.00,"4.03"],[58,127.00,"4.17"]]
+        "average": [[54,"3.90"],[55,"5.72"],[56,"4.42"],[57,"4.03"],[58,"4.17"]]
     },
     {
         "name": "NJ Kim",
@@ -994,7 +994,7 @@ export const reconstructionData = [
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=aDEGHT67yLY",
         "author": "NJ Kim",
-        "average": [[54,0.01,"3.90"],[55,38.00,"5.72"],[56,67.00,"4.42"],[57,97.00,"4.03"],[58,127.00,"4.17"]]
+        "average": [[54,"3.90"],[55,"5.72"],[56,"4.42"],[57,"4.03"],[58,"4.17"]]
     },
     {
         "name": "NJ Kim",
@@ -1012,7 +1012,7 @@ export const reconstructionData = [
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=aDEGHT67yLY",
         "author": "NJ Kim",
-        "average": [[54,0.01,"3.90"],[55,38.00,"5.72"],[56,67.00,"4.42"],[57,97.00,"4.03"],[58,127.00,"4.17"]]
+        "average": [[54,"3.90"],[55,"5.72"],[56,"4.42"],[57,"4.03"],[58,"4.17"]]
     },
     {
         "name": "NJ Kim",
@@ -1030,7 +1030,7 @@ export const reconstructionData = [
         "competitionName": "home (unofficial)",
         "competitionLink": "https://www.youtube.com/watch?v=aDEGHT67yLY",
         "author": "NJ Kim",
-        "average": [[54,0.01,"3.90"],[55,38.00,"5.72"],[56,67.00,"4.42"],[57,97.00,"4.03"],[58,127.00,"4.17"]]
+        "average": [[54,"3.90"],[55,"5.72"],[56,"4.42"],[57,"4.03"],[58,"4.17"]]
     },
     {
         "name": "Sam Spendla",
@@ -1140,7 +1140,7 @@ export const reconstructionData = [
         "name": "Joshua Marriott",
         "title": "3.37 Single",
         "wcaid": "2019MARR04",
-        "recon": [[0,"set",[7,3,9,4,5,3,5,4,11,0,2],[1,1,1,0]],[0.0,0.4,[1,2,4,5],-1],[0.5,0.9,[3,4,6,7],-2],[1.0,1.4,[1,2,3,4,5,6,7,8],-2],[1.5,1.9,"flip","x2",[7,10,6,8,10,6,1,9,9,1]],[2.0,2.4,[0,1,3,4],-4],[2.5,2.9,[1,2,4,5],-2],[3.0,3.4,[0,1,2,3,4,5],5],[3.5,3.9,[0,1,2,3,4,5,7,8],4],[4.0,4.4,[1,2,3,4,5,6,7,8],-1]],
+        "recon": [[0,"set",[7,3,9,4,5,3,5,4,11,0,2],[1,1,1,0]],[0.01,0.4,[1,2,4,5],-1],[0.5,0.9,[3,4,6,7],-2],[1.0,1.4,[1,2,3,4,5,6,7,8],-2],[1.5,1.9,"flip","x2",[7,10,6,8,10,6,1,9,9,1]],[2.0,2.4,[0,1,3,4],-4],[2.5,2.9,[1,2,4,5],-2],[3.0,3.4,[0,1,2,3,4,5],5],[3.5,3.9,[0,1,2,3,4,5,7,8],4],[4.0,4.4,[1,2,3,4,5,6,7,8],-1]],
         "solveStart": [0,3.37],
         "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
         "scramble": "UR4- DR2- DL3+ UL5+ U2- R2+ D1- L2+ ALL1- y2 U1+ R1+ D2+ L2+ ALL1- UR DL UL",
@@ -1155,7 +1155,7 @@ export const reconstructionData = [
         "name": "Virgile Perrot",
         "title": "2.79 Single",
         "wcaid": "2017PERR02",
-        "recon":[[0,"set",[5,9,2,0,0,0,7,5,8,0,3],[1,0,0,1]],[0.0,0.4,[4,5,7,8],-3],[0.5,0.9,[1,2,4,5],5],[1.0,1.4,[1,2,4,5,7,8],-2],[1.5,1.9,"flip","x2",[5,6,5,5,5,7,7,6,3,1]],[2.0,2.4,[3,4,6,7],1],[2.5,2.9,[0,1,3,4],1],[3.0,3.4,[0,1,3,4,5,6,7,8],-2],[3.5,3.9,[0,1,2,3,4,5,6,7],-4],[4.0,4.4,[1,2,3,4,5,6,7,8],-1],[4.5,4.9,[0,1,2,3,4,5,7,8],1],[5.0,5.4,[0,1,2,3,4,5,6,7,8],-1]],
+        "recon": [[0,"set",[5,9,2,0,0,0,7,5,8,0,3],[1,0,0,1]],[0.01,0.4,[4,5,7,8],-3],[0.5,0.9,[1,2,4,5],5],[1.0,1.4,[1,2,4,5,7,8],-2],[1.5,1.9,"flip","x2",[5,6,5,5,5,7,7,6,3,1]],[2.0,2.4,[3,4,6,7],1],[2.5,2.9,[0,1,3,4],1],[3.0,3.4,[0,1,3,4,5,6,7,8],-2],[3.5,3.9,[0,1,2,3,4,5,6,7],-4],[4.0,4.4,[1,2,3,4,5,6,7,8],-1],[4.5,4.9,[0,1,2,3,4,5,7,8],1],[5.0,5.4,[0,1,2,3,4,5,6,7,8],-1]],
         "solveStart": [0,2.79],
         "tags": [["NR","#00E676"],["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
         "scramble": "UR5+ DR3+ DL2- UL4+ U4+ R6+ D0+ L2- ALL1+ y2 U5- R0+ D3+ L0+ ALL2+ DR UL",
@@ -1165,5 +1165,559 @@ export const reconstructionData = [
         "competitionName": "Monts du Lyonnais Open 2023",
         "competitionLink": "https://www.worldcubeassociation.org/competitions/MontsduLyonnaisOpen2023",
         "author": "Joshua Marriott"
-    }
+    },
+    {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.55 Average - 3.11",
+        "wcaid": "2021ELIA01",
+        "id": "X25-RNYyTkw",
+        "recon": [[0.01,"set",[11,7,1,9,3,6,7,4,10,0,3],[0,1,1,0],67],[9.62,9.72,[1,2,3,4,5,6,7,8],2],[9.99,10.02,[3,4,5,6,7,8],1],[9.93,10.12,[0,2],-5],[10.43,10.52,[3,4,6,7],3],[10.41,10.47,[0,2,8],-1],[10.88,11.06,[1,2,4,5],6],[11.06,11.12,[0,6,8],-2],[11.44,11.55,[0,1,2,3,4,5],-5],[11.85,11.88,[6,8],-1],[12.07,12.18,[8],3],[12.07,12.15,[0,1,2,3,4,5,6,7],2],[23.00,"set",[1,4,1,6,8,4,11,5,11,1,3],[0,1,1,1],44],[40.47,"set",[4,6,8,10,12,9,8,7,3,1,2],[1,1,0,0],68],[58.20,"set",[11,1,7,4,8,8,1,10,6,1,2],[1,0,1,1],69],[86.77,"set",[5,12,4,2,3,9,10,4,2,0,0],[1,1,1,0],70]],
+        "startTime": 8,
+        "solveStart": [9.20,3.11],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR2- DR5+ DL1+ UL5- U2+ R3- D4- L5- ALL5+ y2 U1- R6+ D4- L3- ALL5+ UR DL",
+        "inspection": "z'",
+        "solution": "dl(0+,2+) R(5-,1+) DR(1-,3+) UL(6+,2-) L(5-,1-) ur(2+,3+)",
+        "date": "July 23, 2023",
+        "competitionName": "24 Hours in Flen 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/24HoursinFlen2023",
+        "author": "Jules Graham",
+        "average": [[67,"3.11"],[44,"2.89"],[68,"4.27"],[69,"3.28"],[70,"5.36"]]
+      },
+      {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.55 Average - 4.27",
+        "wcaid": "2021ELIA01",
+        "id": "X25-RNYyTkw",
+        "recon": [[0.01,"set",[11,7,1,9,3,6,7,4,10,0,3],[0,1,1,0],67],[23.00,"set",[1,4,1,6,8,4,11,5,11,1,3],[0,1,1,1],44],[40.47,"set",[4,6,8,10,12,9,8,7,3,1,2],[1,1,0,0],68],[58.20,"set",[11,1,7,4,8,8,1,10,6,1,2],[1,0,1,1],69],[51.65,51.85,[0,1,3,4,5,6,7,8],-5],[51.79,51.83,[2],1],[52.12,52.33,[0,1,3,4,6,7],2],[52.13,52.33,[2,8],-4],[52.57,52.83,[0,1,3,4],-5],[52.7,53.01,[2,6,8],-2],[53.29,53.48,[0,1,3,4,5,7,8],6],[53.33,53.48,[2,6],-3],[53.73,53.77,[4,5,7,8],-2],[53.97,54.17,[0,2,6],4],[53.96,54.14,[4,5,7,8],-4],[54.7,54.84,[1,2,4,5,7,8],4],[54.71,54.77,[0,6],2],[55.07,55.24,[6],6],[55.04,55.21,[0,1,2,3,4,5,7,8],4],[86.77,"set",[5,12,4,2,3,9,10,4,2,0,0],[1,1,1,0],70]],
+        "startTime": 50,
+        "solveStart": [51.17,4.27],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR3- DR1+ DL5- UL6+ U2+ R4+ D2- L2+ ALL5- y2 U1+ R4- D6+ L3- ALL4+ DR DL",
+        "inspection": "x2",
+        "solution": "dl(1+,5-) R(4-,2+) DR(2-,5-) \\(6+,3-) UL2- UL(4-,4+) L(4+,2+) ur(4+,6+)",
+        "date": "July 23, 2023",
+        "competitionName": "24 Hours in Flen 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/24HoursinFlen2023",
+        "author": "Jules Graham",
+        "average": [[67,"3.11"],[44,"2.89"],[68,"4.27"],[69,"3.28"],[70,"5.36"]]
+      },
+      {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.55 Average - 3.28",
+        "wcaid": "2021ELIA01",
+        "id": "X25-RNYyTkw",
+        "recon": [[0.01,"set",[11,7,1,9,3,6,7,4,10,0,3],[0,1,1,0],67],[23.00,"set",[1,4,1,6,8,4,11,5,11,1,3],[0,1,1,1],44],[40.47,"set",[4,6,8,10,12,9,8,7,3,1,2],[1,1,0,0],68],[58.20,"set",[11,1,7,4,8,8,1,10,6,1,2],[1,0,1,1],69],[69.61,69.68,[0,1,3,4,5,6,7,8],2],[69.91,70.05,[0,1,3,4,6,7],-2],[69.91,70.08,[2,8],-5],[70.44,70.55,[0,1,3,4],2],[70.37,70.55,[2,6,8],-5],[70.78,70.95,[0,1,3,4,5,7,8],4],[70.85,70.88,[2,6],-1],[71.18,71.35,[4,5,7,8],5],[71.31,71.35,[0,2,6],-1],[71.65,71.85,[0,6],-5],[72.08,72.11,[0,6],-1],[71.65,71.78,[1,2,4,5,7,8],3],[72.31,72.38,[0,1,2,3,4,5,7,8],2],[86.77,"set",[5,12,4,2,3,9,10,4,2,0,0],[1,1,1,0],70]],
+        "startTime": 68,
+        "solveStart": [69.23,3.28],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR4+ DR6+ DL1- UL6+ U2+ R4- D5- L2+ ALL4- y2 U2- R4+ D5- L0+ ALL1- DR DL UL",
+        "inspection": "z2",
+        "solution": "dl(0+,2+) R(5-,2-) DR(5-,2+) \\(4+,1-) UL(5+,1-) L(3+,5-) L(0+,1-) ur(2+,0+)",
+        "date": "July 23, 2023",
+        "competitionName": "24 Hours in Flen 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/24HoursinFlen2023",
+        "author": "Jules Graham",
+        "average": [[67,"3.11"],[44,"2.89"],[68,"4.27"],[69,"3.28"],[70,"5.36"]]
+      },
+      {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.55 Average - 5.36",
+        "wcaid": "2021ELIA01",
+        "id": "X25-RNYyTkw",
+        "recon": [[0.01,"set",[11,7,1,9,3,6,7,4,10,0,3],[0,1,1,0],67],[23.00,"set",[1,4,1,6,8,4,11,5,11,1,3],[0,1,1,1],44],[40.47,"set",[4,6,8,10,12,9,8,7,3,1,2],[1,1,0,0],68],[58.20,"set",[11,1,7,4,8,8,1,10,6,1,2],[1,0,1,1],69],[86.77,"set",[5,12,4,2,3,9,10,4,2,0,0],[1,1,1,0],70],[96.92,97.05,[6],-4],[97.39,97.49,[1,2,3,4,5,6,7,8],2],[97.85,98.05,[1,2,3,4,5,6,7,8],-2],[98.25,98.29,[1,2,3,4,5,6,7,8],1],[98.49,98.59,[1,2,3,4,5,6,7,8],-1],[98.82,98.89,[1,2,4,5,7,8],2],[99.35,99.53,[4,5,7,8],-3],[99.23,99.39,[0,2,6],-3],[99.75,99.89,[2,6],5],[100.19,100.33,[2,6],1],[99.72,99.83,[0,1,3,4,5,7,8],3],[100.19,100.23,[0,1,3,4,5,7,8],1],[100.53,100.56,[0,1,3,4],1],[100.56,100.63,[2,6,8],-1],[100.99,101.03,[2,6,8],-1],[101.22,101.36,[0,1,3,4,6,7],5],[101.26,101.36,[2,8],-3],[101.53,101.63,[2],-4]],
+        "startTime": 96,
+        "solveStart": [96.33,5.36],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR4- DR5- DL4- UL2+ U1+ R2- D0+ L4- ALL5- y2 U4- R4- D4- L5+ ALL3- DL",
+        "inspection": "y2",
+        "solution": "dl(4-,0+) ul2+ ul2- ul1+ ul1- R(0+,2+) DR(3-,3-) \\(3+,5+) \\(1+,1+) UL(1+,1-) UL(0+,1-) L(5+,3-) ur(0+,4-)",
+        "date": "July 23, 2023",
+        "competitionName": "24 Hours in Flen 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/24HoursinFlen2023",
+        "author": "Jules Graham",
+        "average": [[67,"3.11"],[44,"2.89"],[68,"4.27"],[69,"3.28"],[70,"5.36"]]
+      },
+      {
+        "name": "Vishwa Sankar",
+        "title": "3.42 Single",
+        "wcaid": "2017SANK04",
+        "id": "I6RaPr8eIgI",
+        "recon": [[0.01,"set",[10,4,8,1,4,4,4,11,3,0,0],[0,0,0,1]],[12.87,12.97,[1,2,4,5],-3],[13.2,13.3,[0,1,2,3,4,5],-2],[13.33,13.4,[0,1,2,3,4,5,7,8],1],[13.47,13.63,"flip","x2",[9,11,4,2,8,5,4,10,4,1]],[13.87,13.97,[3,4,6,7],-3],[14.1,14.23,[4,5,7,8],-6],[14.43,14.53,[0,1,2,3,4,5],2],[14.83,14.9,[0,1,2,3,4,5,6,7],-3],[15.27,15.33,[1,2,3,4,5,6,7,8],-2],[15.53,15.63,[0,1,3,4,5,6,7,8],5],[15.77,15.8,[0,1,2,3,4,5,6,7,8],-1]],
+        "startTime": 12,
+        "solveStart": [12.50,3.42],
+        "tags": [["CR","#FFEB3B"],["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR4+ DR4+ DL4- UL3- U4+ R5- D0+ L5- ALL3- y2 U2+ R3- D3+ L6+ ALL4- UR DR UL",
+        "inspection": "y2",
+        "solution": "UR3- U2- dl1+ x2 UL3+ UR6+ D2- ur3+ dl2+ dr5- ALL1+",
+        "date": "February 27, 2022",
+        "competitionName": "GA Cubers February B 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GACubersFebruaryB2022",
+        "author": "Joshua Marriott"
+    },
+    {
+        "name": "Tommy Cherry",
+        "title": "2.97 Single",
+        "wcaid": "2015CHER07",
+        "id": "7n4Ul9KAlH8",
+        "recon": [[0.01,"set",[10,10,11,8,7,10,9,12,9,0,3],[0,1,1,0]],[13.53,13.59,[0],1],[13.72,13.82,[1,2,3,4,5,6,7,8],-4],[14.13,14.2,[3,4,6,7],3],[14.1,14.15,[0,2,8],-1],[14.53,14.63,[1,2,3,4,5,6,7],2],[14.8,14.84,[1,2,4,5],1],[14.84,14.87,[0,6,8],-1],[15.1,15.2,[0,1,2,3,4,5],4],[15.1,15.2,[6,8],4],[15.65,15.7,[0,1,2,3,4,5,6,7],-1],[15.65,15.74,[8],5]],
+        "startTime": 12,
+        "endTime": 21,
+        "solveStart": [12.97,2.97],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
+        "scramble": "UR2- DR5+ DL4- UL0+ U3- R4- D4- L1+ ALL6+ y2 U1+ R1+ D3- L5+ ALL4+ UR DL",
+        "inspection": "x2 z",
+        "solution": "dl(1+,4-) DR(1-,3+) \\(2+,0+) UL(1+,1-) L(4+,4+) ur(1-,5+)",
+        "date": "August 13, 2023",
+        "competitionName": "Rubik's WCA World Championship 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/WC2023",
+        "author": "Jules Graham"
+    },
+    {
+        "name": "Maciej Skowroński",
+        "title": "2.94 Single",
+        "wcaid": "2021SKOW01",
+        "id": "rlnKpZ9sRZI",
+        "recon": [[0.01,"set",[3,12,10,8,8,10,3,8,11,0,2],[1,1,0,0]],[9.43,9.5,[3,4,6,7],2],[9.63,9.7,[3,4,5,6,7,8],2],[9.77,9.97,"flip","x2",[3,10,10,12,10,10,7,3,1,1]],[10.23,10.3,[1,2,4,5],1],[10.67,10.73,[1,2,4,5],1],[10.8,10.93,[0,1,2,3,4,5],3],[11,11.1,[0,1,2,3,4,5,6,7],-2],[11.3,11.37,[1,2,3,4,5,6,7,8],3],[11.57,11.7,[0,1,2,3,4,5,7,8],4],[11.77,11.83,[0,1,2,3,4,5,6,7,8],4]],
+        "startTime": 8,
+        "solveStart": [9.07,2.94],
+        "tags": [["NR","#00E676"],["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR2+ DR2+ DL3- UL2- U5+ R4- D1+ L5- ALL6+ y2 U0+ R0+ D4- L2- ALL2+ UR UL",
+        "inspection": "z2",
+        "solution": "UR2+ U2+ x2 UL1- UL1- U3- dl2+ ur3- dr4- ALL4-",
+        "date": "August 27, 2023",
+        "competitionName": "Cube4fun in Biała Podlaska 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/Cube4funinBialaPodlaska2023",
+        "author": "Joshua Marriott"
+    },
+    {
+        "name": "NJ Kim",
+        "title": "3.21 Single",
+        "wcaid": "2022KIMN01",
+        "recon": [[0,"set",[6,2,4,10,6,6,11,2,10,0,3],[1,0,1,1]],[0.01,0.4,[1,2,4,5],-4],[0.5,0.9,[4,5,7,8],-4],[1.0,1.4,[1,2,3,4,5,6,7,8],2],[1.5,1.9,"flip","y2",[6,2,2,2,6,6,1,8,8,1]],[2.0,2.4,[4,5,7,8],-4],[2.5,2.9,[0,1,2,3,4,5],2],[3.0,3.4,[1,2,3,4,5,6,7,8],4],[3.5,3.9,[0,1,2,3,4,5,7,8],-3],[4.0,4.4,[0,1,2,3,4,5,6,7,8],-5]],
+        "solveStart": [0,3.21],
+        "tags": [["Unofficial","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR0+ DR0+ DL2- UL1- U3+ R0+ D2- L1- ALL3- y2 U4+ R4- D4+ L0+ ALL2+ DR DL UL",
+        "inspection": "z'",
+        "solution": "UL4- UR4- dl2+ y2 UL4+ R2- dr4- dl3+ ALL5+",
+        "date": "August 30, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "",
+        "author": "NJ Kim"
+    },
+    {
+        "name": "Jacob Chambers",
+        "title": "3.12 Single",
+        "wcaid": "2017CHAM09",
+        "id": "FrzOz5LiH_g",
+        "recon": [[0.01,"set",[11,6,1,10,8,12,1,12,6,1,1],[0,1,0,0]],[150.98,151.08,[1,2,4,5,7,8],2],[151.35,151.48,[0,1,3,4],4],[151.59,151.65,[3,4,5,6,7,8],-2],[151.68,151.85,"flip","x2",[3,8,3,7,1,1,11,8,6,0]],[152.1,152.27,[1,2,4,5],-5],[152.4,152.44,[4,5,7,8],-1],[152.55,152.65,[3,4,5,6,7,8],-4],[152.75,152.88,[0,1,3,4,5,6,7,8],-5],[153.27,153.39,[0,1,2,3,4,5,7,8],4],[153.51,153.57,[0,1,2,3,4,5,6,7],-2]],
+        "startTime": 150,
+        "solveStart": [150.67,3.12],
+        "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR6+ DR5+ DL1- UL3+ U2- R1+ D3+ L4+ ALL4+ y2 U4- R2- D2+ L4- ALL4+ DR",
+        "inspection": "z",
+        "solution": "D2+ UR4+ L2- x2 UR5+ UL1+ L4+ ur5+ dl4- ul2+",
+        "date": "February 12, 2023",
+        "competitionName": "Newham Side Events Winter 2023",
+	    "competitionLink": "https://www.worldcubeassociation.org/competitions/NewhamSideEventsWinter2023",
+        "author": "Jules Graham"
+    },
+    {
+        "name": "Kris Lim",
+        "title": "3.98 Single",
+        "wcaid": "2022LIMK01",
+        "id": "zSHwa4pv6hI",
+        "recon": [["0.01","set",[2,1,1,1,8,12,3,11,6,0,3],[1,0,0,1]],[9.5,9.8,[0,1,3,4],4],[10,10.1,[4,5,7,8],5],[10.37,10.42,[0,1,2,3,4,5],-1],[10.60,10.73,[0,1,2,3,4,5,7,8],-4],[10.75,11.15,"flip","x2",[1,9,8,2,2,9,3,2,7,1]],[11.2,11.37,[3,4,6,7],-5],[11.6,11.75,[0,1,2,3,4,5,6,7],-2],[11.97,12.07,[0,1,3,4,5,6,7,8],-1],[12.25,12.45,[1,2,3,4,5,6,7,8],4],[12.65,12.76,[0,1,2,3,4,5,7,8],1],[12.85,12.9,[0,1,2,3,4,5,6,7,8],1]],
+        "startTime": 8,
+        "solveStart": [9.07,3.98],
+        "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR3- DR1- DL4+ UL6+ U6+ R1- D4+ L2- ALL5- y2 U0+ R5- D5- L0+ ALL4- UR DL",
+        "inspection": "x2 z",
+        "solution": "DL4+ UR5+ L1- dr4- x2 UR5+ dr2+ dl1+ ul4- ur1- ALL1- ",
+        "date": "May 27, 2023",
+        "competitionName": "Glasgow Spring 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GlasgowSpring2023",
+        "author": "Kris Lim"
+    },
+    {
+        "name": "Yunhao Lou",
+        "title": "3.86 Average - 3.52",
+        "wcaid": "2017LOUY01",
+        "id": "gRsTzoHXEV8",
+        "recon": [[0.01,"set",[9,7,2,3,7,5,1,6,10,0,0],[1,1,0,1],77],[12.67,12.8,[1,2,4,5],-4],[12.93,13.03,[0,1,3,4],-2],[13.1,13.23,[0,1,2,3,4,5],5],[13.33,13.43,[0,1,2,3,4,5,7,8],6],[13.47,13.7,"flip","x2",[6,1,9,7,8,11,1,1,4,1]],[13.87,13.93,[1,2,4,5],-1],[14.27,14.47,[0,1,2,3,4,5],6],[14.63,14.73,[3,4,6,7],3],[14.87,14.97,[3,4,5,6,7,8],2],[15.07,15.17,[1,2,3,4,5,6,7,8],6],[15.37,15.5,[0,1,3,4,5,6,7,8],-4],[15.6,15.73,[0,1,2,3,4,5,6,7,8],4],[20,"set",[8,10,10,6,6,1,9,11,8,0,1],[1,0,1,0],78],[44.17,"set",[6,7,1,1,8,3,7,5,6,0,1],[0,0,1,1],79],[66.36,"set",[5,9,5,3,3,2,9,7,5,0,1],[0,1,0,1],80],[83.27,"set",[2,6,2,8,2,7,2,8,6,1,1],[0,0,0,0],81]],
+        "startTime": 12,
+        "solveStart": [12.33,3.52],
+        "tags": [["WR","#F44336"],["Official","gray"],["Flip","lightgreen"],["Average","gray"]],
+        "scramble": "UR1- DR6+ DL5+ UL2+ U0+ R1- D1+ L5- ALL0+ y2 U5+ R3+ D5+ L1- ALL4+ DR",
+        "inspection": "y2",
+        "solution": "UR4- UL2- U5+ dl6+ x2 DR1+ D6- UL3- U2- dl6- dr4+ ALL4-",
+        "date": "December 13, 2020",
+        "competitionName": "Guangzhou Good Afternoon 2020",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GuangzhouGoodAfternoon2020",
+        "author": "Calvin Chiu",
+        "average": [[77,"3.52"],[78,"4.28"],[79,"4.57"],[80,"3.54"],[81,"3.76"]]
+    },
+    {
+        "name": "Yunhao Lou",
+        "title": "3.86 Average - 4.28",
+        "wcaid": "2017LOUY01",
+        "id": "gRsTzoHXEV8",
+        "recon": [[0.01,"set",[9,7,2,3,7,5,1,6,10,0,0],[1,1,0,1],77],[20,"set",[8,10,10,6,6,1,9,11,8,0,1],[1,0,1,0],78],[36.5,36.67,[0,1,3,4],5],[36.8,36.93,[3,4,6,7],4],[36.97,37.07,[0,1,3,4,6,7],-2],[37.17,37.23,[0,1,2,3,4,5,6,7],-1],[37.3,37.5,"flip","x2",[10,7,9,5,11,8,10,3,8,1]],[38,38.13,[1,2,4,5],-5],[38.3,38.43,[0,1,3,4],-3],[38.57,38.67,[4,5,7,8],-4],[38.73,38.83,[1,2,4,5,7,8],3],[38.93,39.03,[0,1,2,3,4,5,7,8],-4],[39.23,39.33,[0,1,2,3,4,5,6,7],5],[39.5,39.63,[0,1,3,4,5,6,7,8],5],[39.8,39.9,[1,2,3,4,5,6,7,8],5],[39.97,40.3,[0,1,2,3,4,5,6,7,8],-1],[44.17,"set",[6,7,1,1,8,3,7,5,6,0,1],[0,0,1,1],79],[66.36,"set",[5,9,5,3,3,2,9,7,5,0,1],[0,1,0,1],80],[83.27,"set",[2,6,2,8,2,7,2,8,6,1,1],[0,0,0,0],81]],
+        "startTime": 35,
+        "solveStart": [36.17,4.28],
+        "tags": [["WR","#F44336"],["Official","gray"],["Flip","lightgreen"],["Average","gray"]],
+        "scramble": "UR1+ DR3- DL1+ UL2+ U4+ R2+ D2- L2+ ALL1- y2 U4+ R3- D4- L6+ ALL2- DL UL",
+        "inspection": "x2 z'",
+        "solution": "UR5+ UL4+ U2- dl1- x2 UR5+ DR3+ UL4+ U3- dl4+ ul5- ur5- dr5- ALL1+",
+        "date": "December 13, 2020",
+        "competitionName": "Guangzhou Good Afternoon 2020",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GuangzhouGoodAfternoon2020",
+        "author": "Calvin Chiu",
+        "average": [[77,"3.52"],[78,"4.28"],[79,"4.57"],[80,"3.54"],[81,"3.76"]]
+    },
+    {
+        "name": "Yunhao Lou",
+        "title": "3.86 Average - 4.57",
+        "wcaid": "2017LOUY01",
+        "id": "gRsTzoHXEV8",
+        "recon": [[0.01,"set",[9,7,2,3,7,5,1,6,10,0,0],[1,1,0,1],77],[20,"set",[8,10,10,6,6,1,9,11,8,0,1],[1,0,1,0],78],[44.17,"set",[6,7,1,1,8,3,7,5,6,0,1],[0,0,1,1],79],[58.3,58.43,[0,1,2,3,4,5],4],[58.67,58.8,[1,2,4,5],5],[58.93,59,[3,4,6,7],-1],[59.7,59.8,[0,1,3,4,6,7],-4],[59.87,60.07,"flip","x2",[6,1,10,7,3,3,2,6,6,1]],[60.2,60.3,[1,2,4,5],3],[60.47,60.57,[4,5,7,8],-2],[60.9,61,[1,2,4,5,7,8],3],[61.13,61.2,[0,1,2,3,4,5,7,8],-5],[61.63,61.77,[0,1,3,4,5,6,7,8],-3],[61.87,62,[0,1,2,3,4,5,6,7,8],1],[62.13,62.2,[1,2,3,4,5,6,7,8],-1],[62.3,62.43,[0,1,2,3,4,5,6,7,8],1],[66.36,"set",[5,9,5,3,3,2,9,7,5,0,1],[0,1,0,1],80],[83.27,"set",[2,6,2,8,2,7,2,8,6,1,1],[0,0,0,0],81]],
+        "startTime": 57,
+        "solveStart": [57.93,4.57],
+        "tags": [["WR","#F44336"],["Official","gray"],["Flip","lightgreen"],["Average","gray"]],
+        "scramble": "UR1- DR1+ DL2- UL0+ U4+ R5- D2+ L5- ALL2+ y2 U3+ R0+ D2- L4+ ALL4+ UR UL",
+        "inspection": "x2 z'",
+        "solution": "R4+ DR5+ UL1- U4- x2 UR3- UL2+ U3- dl5+ ur3+ ALL1- dr1+ ALL1- ",
+        "date": "December 13, 2020",
+        "competitionName": "Guangzhou Good Afternoon 2020",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GuangzhouGoodAfternoon2020",
+        "author": "Calvin Chiu",
+        "average": [[77,"3.52"],[78,"4.28"],[79,"4.57"],[80,"3.54"],[81,"3.76"]]
+    },
+    {
+        "name": "Yunhao Lou",
+        "title": "3.86 Average - 3.54",
+        "wcaid": "2017LOUY01",
+        "id": "gRsTzoHXEV8",
+        "recon": [[0.01,"set",[9,7,2,3,7,5,1,6,10,0,0],[1,1,0,1],77],[20,"set",[8,10,10,6,6,1,9,11,8,0,1],[1,0,1,0],78],[44.17,"set",[6,7,1,1,8,3,7,5,6,0,1],[0,0,1,1],79],[66.36,"set",[5,9,5,3,3,2,9,7,5,0,1],[0,1,0,1],80],[75.97,76.1,[0,1,3,4],4],[76.23,76.37,[3,4,6,7],-6],[76.43,76.5,[0,1,3,4,6,7],1],[76.63,76.7,[0,1,2,3,4,5,6,7],-2],[76.73,76.97,"flip","x2",[8,1,3,9,3,10,2,5,5,1]],[77.13,77.27,[1,2,4,5],-5],[77.47,77.6,[0,1,3,4],-5],[77.73,77.8,[4,5,7,8],-1],[77.9,78,[3,4,5,6,7,8],-1],[78.13,78.27,[0,1,2,3,4,5,7,8],-2],[78.4,78.57,[0,1,3,4,5,6,7,8],-5],[78.9,79,[0,1,2,3,4,5,6,7,8],4],[83.27,"set",[2,6,2,8,2,7,2,8,6,1,1],[0,0,0,0],81]],
+        "startTime": 75,
+        "solveStart": [75.63,3.54],
+        "tags": [["WR","#F44336"],["Official","gray"],["Flip","lightgreen"],["Average","gray"]],
+        "scramble": "UR3+ DR1+ DL1+ UL1- U6+ R4- D4+ L1+ ALL4+ y2 U2+ R5- D2- L6+ ALL4- UR DR",
+        "inspection": "x2 z'",
+        "solution": "UR4+ UL6- U1+ dl2- x2 UR5+ DR5+ UL1+ L1+ dl2+ ur5+ ALL4-",
+        "date": "December 13, 2020",
+        "competitionName": "Guangzhou Good Afternoon 2020",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GuangzhouGoodAfternoon2020",
+        "author": "Calvin Chiu",
+        "average": [[77,"3.52"],[78,"4.28"],[79,"4.57"],[80,"3.54"],[81,"3.76"]]
+    },
+    {
+        "name": "Yunhao Lou",
+        "title": "3.86 Average - 3.76",
+        "wcaid": "2017LOUY01",
+        "id": "gRsTzoHXEV8",
+        "recon": [[0.01,"set",[9,7,2,3,7,5,1,6,10,0,0],[1,1,0,1],77],[20,"set",[8,10,10,6,6,1,9,11,8,0,1],[1,0,1,0],78],[44.17,"set",[6,7,1,1,8,3,7,5,6,0,1],[0,0,1,1],79],[66.36,"set",[5,9,5,3,3,2,9,7,5,0,1],[0,1,0,1],80],[83.27,"set",[2,6,2,8,2,7,2,8,6,1,1],[0,0,0,0],81],[94.37,94.53,[1,2,4,5],-6],[94.7,94.8,[3,4,6,7],3],[94.93,95.03,[3,4,6,7],1],[95.17,95.23,[3,4,5,6,7,8],-1],[95.43,95.50,[3,4,6,7],1],[95.53,95.8,"flip","x2",[2,10,8,8,0,10,6,9,5,0]],[96,96.07,[1,2,4,5],-1],[96.27,96.37,[0,1,3,4],-2],[96.5,96.6,[4,5,7,8],-2],[96.7,96.77,[1,2,4,5,7,8],-1],[97,97.13,[0,1,2,3,4,5,6,7],-4],[97.27,97.37,[1,2,3,4,5,6,7,8],6],[97.5,97.6,[0,1,2,3,4,5,6,7,8],4]],
+        "startTime": 93,
+        "solveStart": [93.97,3.76],
+        "tags": [["WR","#F44336"],["Official","gray"],["Flip","lightgreen"],["Average","gray"]],
+        "scramble": "UR5- DR4- DL5- UL2- U1+ R3+ D5+ L2+ ALL5- y2 U3- R2- D2- L4- ALL1- UR DR DL UL",
+        "inspection": "x2 z'",
+        "solution": "DR6- UL3+ UL1+ L1- UL1+ x2 UR1+ DR2+ UL2+ U1+ ul4+ dr6- ALL4-",
+        "date": "December 13, 2020",
+        "competitionName": "Guangzhou Good Afternoon 2020",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/GuangzhouGoodAfternoon2020",
+        "author": "Calvin Chiu",
+        "average": [[77,"3.52"],[78,"4.28"],[79,"4.57"],[80,"3.54"],[81,"3.76"]]
+    },
+    {
+        "name": "Piotr Olszewski",
+        "title": "3.06 Single",
+        "wcaid": "2013OLSZ02",
+        "id": "KrPvFkwBq3s",
+        "recon": [[0.01,"set",[11,5,10,5,10,3,5,8,3,0,0],[0,1,0,0]],[10.67,10.8,[4,5,7,8],-5],[11.07,11.17,[0,1,3,4],-2],[11.43,11.57,[0,1,3,4,6,7],-5],[11.7,11.87,[2],-2],[11.77,12.07,[0,1,3,4,5,6,7,8],-2],[12.3,12.37,[0],-1],[12.33,12.47,[1,2,3,4,5,6,7,8],5],[12.77,12.9,[0,1,2,3,4,5,7,8],2],[12.97,13.1,[0,1,2,3,4,5,6,7,8],-3]],
+        "startTime": 9,
+        "solveStart": [10.20,3.06],
+        "tags": [["NR","#00E676"],["Official","gray"],["Sheerin","lightblue"],["Single","gray"]],
+        "scramble": "UR3- DR2+ DL2+ UL4- U4+ R0+ D4- L0+ ALL0+ y2 U2+ R5+ D5+ L5- ALL3+ UR",
+        "inspection": "",
+        "solution": "DR5- UL2- L5- ur(2-,2-) ul(1-,5+) dl2+ ALL3-",
+        "date": "August 26, 2023",
+        "competitionName": "Szczecin Summer 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/SzczecinSummer2023",
+        "author": "Lachlan"
+    },
+    {
+        "name": "Jules Graham",
+        "title": "2.47 Single",
+        "wcaid": "2020GRAH01",
+        "id": "gXJnTtQvx3s",
+        "recon": [[0.01,"set",[10,9,6,11,8,12,1,10,6,0,0],[0,1,0,1]],[12.7,12.77,[0,1,2,3,4,5,7,8],1],[12.87,12.97,[1,2,4,5,7,8],2],[13.03,13.13,[0,6],2],[13.3,13.37,[4,5,7,8],1],[13.2,13.33,[0,2,6],-1],[13.67,13.77,[2],-2],[13.87,13.93,[0,1,3,4,6,7],2],[13.97,14.13,[2,8],-2],[14.27,14.4,[0,1,3,4],2],[14.27,14.4,[2,6,8],-4],[14.63,14.73,[0,1,3,4,5,7,8],-4]],
+        "startTime": 12,
+        "solveStart": [12.30,2.47],
+        "tags": [["Unofficial","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
+        "scramble": "UR1- DR5- DL4- UL3- U2+ R3+ D4- L3+ ALL5+ y2 U2- R2+ D0+ L4- ALL3- UR DR",
+        "inspection": "y2",
+        "solution": "dl(0,1+) R(2+,2+) DR(1-,1+) ur(0,-2) L(2+,2-) UL(2+,4-) \\(4-,0)",
+        "date": "September 01, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=gXJnTtQvx3s&authuser=0",
+        "author": "Lachlan"
+    },
+    {
+        "name": "Jacob Chambers",
+        "title": "3.27 Single (Disqualified)",
+        "wcaid": "2017CHAM09",
+        "id": "DDUQtxR1ijw",
+        "recon": [[0.01,"set",[9,2,8,11,3,3,10,11,9,1,3],[0,1,1,1]],[24.87,25,[1,2,4,5],-4],[25.23,25.28,[3,4,5,6,7,8],-1],[25.39,25.45,[1,2,3,4,5,6,7,8],2],[25.5,25.65,"flip","x2",[9,11,6,11,10,5,11,5,10,0]],[26.06,26.16,[4,5,7,8],1],[26.48,26.59,[0,1,3,4],-5],[26.74,26.85,[0,1,2,3,4,5,6,7],5],[27.07,27.14,[1,2,3,4,5,6,7,8],-2],[27.32,27.42,[0,1,2,3,4,5,7,8],5],[27.49,27.62,[0,1,2,3,4,5,6,7,8],-2]],
+        "startTime": 24,
+        "solveStart": [24.47,3.27],
+        "tags": [["CR","#FFEB3B"],["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR3- DR1- DL0+ UL2- U3- R4- D2+ L2+ ALL0+ y2 U5- R5- D1+ L1+ ALL2-",
+        "inspection": "x2 z",
+        "solution": "UL4- R1- dl2+ x2 DR1- UL5+ dr5- ul2+ ur5- ALL2+",
+        "date": "May 07, 2022",
+        "competitionName": "Wakefield Spring 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/WakefieldSpring2022",
+        "author": "Jules Graham"
+    },
+    {
+        "name": "Stanley Chapel",
+        "title": "3.83 Single",
+        "wcaid": "2016CHAP04",
+        "id": "6pUFiQDghWU",
+        "recon": [[0.01,"set",[9,12,11,10,7,12,5,10,2,1,0],[0,1,0,0]],[12.13,12.25,[3,4,6,7],5],[12.46,12.58,[1,4,5],3],[12.79,12.88,[0,1,2,3,4,5,6,7],-3],[12.93,13.16,"flip","x2",[6,3,11,8,11,2,7,11,2,0]],[13.42,13.52,[4,5,7,8],-3],[13.88,13.96,[3,4,6,7],-4],[14.13,14.18,[3,4,6,7],-1],[14.38,14.49,[0,1,3,4,6,7],-4],[14.75,14.83,[1,2,3,4,5,6,7,8],3],[15.08,15.12,[0,1,2,3,4,5,7,8],-1],[15.33,15.38,[0,1,2,3,4,5,6,7,8],-1]],
+        "startTime": 11,
+        "solveStart": [11.70,3.83],
+        "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR3+ DR0+ DL6+ UL4+ U5+ R0+ D2- L1- ALL2- y2 U3- R3- D5- L5- ALL1- UR",
+        "inspection": "",
+        "solution": "DL5+ UR3+ dr3- x2 UR3+ UL5+ L4+ dl3- ul1+ ALL1+ ",
+        "date": "April 02, 2022",
+        "competitionName": "Ohio State Expo Open 2022",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/OhioStateExpoOpen2022",
+        "author": "Jules Graham"
+    },
+    {
+        "name": "Carter Thomas",
+        "title": "2.01 Single",
+        "wcaid": "2018THOM29",
+        "id": "rCUChzJ0QcI",
+        "recon": [[0.01,"set",[0,11,7,2,2,0,4,2,7,0,2],[0,0,1,1]],[26.57,26.67,[3,4,6,7],-3],[26.73,26.77,[0,1,3,4,6,7],1],[26.87,27.17,"flip","y2",[1,7,7,1,1,7,2,1,7,1]],[27.23,27.4,[3,4,6,7],6],[27.83,27.97,[1,2,3,4,5,6,7,8],-6],[28.10,28.17,[0,1,2,3,4,5,7,8],1],[28.3,28.37,[0,1,2,3,4,5,6,7,8],-2]],
+        "startTime": 26,
+        "solveStart": [26.33,2.01],
+        "tags": [["Unofficial","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR1+ DR6+ DL3- UL0+ U1- R5+ D0+ L5+ ALL1+ y2 U0+ R6+ D6+ L0+ ALL1- UR UL",
+        "inspection": "x2",
+        "solution": "UR3- R1+ y2 UL6- dl6+ ul1- ALL2+",
+        "date": "September 16, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=rCUChzJ0QcI",
+        "author": "Calvin Chiu"
+    },
+    {
+        "name": "Carter Thomas",
+        "title": "2.03 Single",
+        "wcaid": "2018THOM29",
+        "id": "8kILKvBFOgw",
+        "recon": [[0.01,"set",[10,7,9,9,7,10,4,10,10,0,0],[1,0,0,0]],[32.19,32.25,[0,1,3,4],3],[32.43,32.47,[1,2,4,5,7,8],2],[32.54,32.81,"flip","x2",[1,11,11,5,2,12,4,2,12,1]],[32.92,32.95,[3,4,6,7],-2],[33.17,33.28,[4,5,7,8],-1],[33.45,33.51,[1,2,4,5,7,8],4],[33.63,33.68,[1,2,3,4,5,6,7,8],-2],[33.88,33.94,[0,1,2,3,4,5,7,8],-1]],
+        "startTime": 31,
+        "solveStart": [31.90,2.03],
+        "tags": [["Unofficial","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR1- DR1- DL2+ UL3- U1+ R0+ D1- L2- ALL0+ y2 U0+ R2- D3- L3+ ALL0+ DR DL UL",
+        "inspection": "y2",
+        "solution": "UL3+ R2+ x2 UL2+ UR1+ R4- dl2+ ul1+",
+        "date": "September 18, 2022",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=8kILKvBFOgw",
+        "author": "Jules Graham"
+    },
+    {
+        "name": "Jules Graham",
+        "title": "2.42 Single",
+        "wcaid": "2020GRAH01",
+        "id": "BAqxFBQNy90",
+        "recon": [[0.01,"set",[3,5,4,6,9,6,10,6,6,1,0],[1,1,1,1]],[28.83,28.9,[1,2,4,5,7,8],1],[28.93,29.06,[0,6],2],[29.25,29.33,[4,5,7,8],-4],[29.3,29.33,[0,2,6],1],[29.76,29.9,[2],4],[29.6,29.7,[0,1,3,4,5,6,7,8],-3],[30.21,30.26,[0,1,3,4],-2],[30.5,30.56,[0,1,3,4],-1],[30.65,30.73,[2,6],2]],
+        "startTime": 28,
+        "solveStart": [28.40,2.42],
+        "tags": [["Unofficial","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
+        "scramble": "UR4- DR6+ DL3- UL6+ U1+ R1+ D1+ L0+ ALL1+ y2 U4+ R2+ D0+ L4+ ALL1-",
+        "inspection": "y2",
+        "solution": "R(2+,1+) DR(1+,4-) ur(3-,4+) UL(2-,0+) UL(1-,0+) \\(0+,2+)",
+        "date": "September 24, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=BAqxFBQNy90",
+        "author": "Jules Graham"
+    },
+    {
+        "name": "Reed W. Richardson",
+        "title": "3.27 Single",
+        "wcaid": "2021RICH02",
+        "id": "FWRGDA6Ua78",
+        "recon": [[0.01,"set",[7,3,11,7,7,7,8,7,6,0,3],[1,1,1,0]],[20.08,20.15,[3,4,5,6,7,8],-4],[20.27,20.31,[0,1,3,4,5,6,7,8],-3],[20.35,20.52,"flip","x2z",[4,9,11,12,9,10,1,8,11,1]],[20.89,20.98,[1,2,4,5],3],[21.12,21.27,[0,1,3,4],-4],[21.6,21.68,[0,1,3,4,6,7],5],[21.91,21.95,[0,1,3,4,5,6,7,8],1],[22.14,22.2,[1,2,3,4,5,6,7,8],4],[22.41,22.48,[0,1,2,3,4,5,7,8],5],[22.64,22.7,[0,1,2,3,4,5,6,7],-2],[22.79,22.87,[0,1,2,3,4,5,6,7,8],3]],
+        "startTime": 19,
+        "solveStart": [19.70,3.27],
+        "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR2- DR2+ DL4- UL2- U3+ R1+ D2+ L3- ALL6+ y2 U0+ R0+ D4+ L0+ ALL3+ UR DL UL",
+        "inspection": "z'",
+        "solution": "R4- ul3- x2z UL3- UR4+ R5- ul1- ur4- dr5- dl2+ ALL3-",
+        "date": "April 22, 2023",
+        "competitionName": "Swallow Spring 2023",
+	"competitionLink": "https://www.worldcubeassociation.org/competitions/SwallowSpring2023",
+	"author": "Jules Graham"
+    },
+    {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.56 Average - 3.79",
+        "wcaid": "2021ELIA01",
+        "id": "zUFatMGBsAM",
+        "recon": [[0.01,"set",[6,1,12,10,7,8,11,3,10,0,2],[0,0,1,1],90],[12.37,12.47,[2],1],[12.4,12.55,[0,1,3,4,5,6,7,8],-3],[12.9,13.05,[0,1,3,4,6,7],5],[12.87,12.97,[2,8],2],[13.31,13.44,[0,1,3,4],-4],[13.34,13.54,[2,6,8],-4],[14,14.13,[0,1,3,4,5,7,8],-3],[14,14.17,[2,6],-3],[14.47,14.67,[4,5,7,8],6],[14.9,15.03,[1,2,4,5,7,8],-3],[14.9,15.03,[0,6],4],[15.46,15.57,[0,1,2,3,4,5,7,8],-5],[15.47,15.53,[6],2],[23.00,"set",[2,6,11,6,12,11,7,2,11,1,2],[0,0,0,0],91],[42.60,"set",[11,1,5,11,7,6,10,4,7,1,0],[0,0,0,0],92],[61.20,"set",[2,6,11,2,10,11,1,1,4,0,2],[1,1,0,0],93],[81.40,"set",[1,1,11,12,2,6,6,5,9,1,2],[1,1,1,0],94]],
+        "startTime": 11,
+        "solveStart": [11.97,3.79],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR1- DR4- DL1+ UL3- U5+ R1- D5+ L5+ ALL5- y2 U4+ R3- D6+ L1- ALL1+ DR DL",
+        "inspection": "z2",
+        "solution": "dl(1+,3-) R(2+,5+) DR(4-,4-) \\(3-,3-) UL6+ L(3-,4+) ur(5-,2+)",
+        "date": "August 12, 2023",
+        "competitionName": "Tofta Summer Open 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/ToftaSummerOpen2023",
+        "author": "Jules Graham",
+        "average": [[90,"3.79"],[91,"3.54"],[92,"3.63"],[93,"3.50"],[94,"3.44"]]
+    },
+    {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.56 Average - 3.54",
+        "wcaid": "2021ELIA01",
+        "id": "zUFatMGBsAM",
+        "recon": [[0.01,"set",[6,1,12,10,7,8,11,3,10,0,2],[0,0,1,1],90],[23.00,"set",[2,6,11,6,12,11,7,2,11,1,2],[0,0,0,0],91],[34.91,35.01,[2],-3],[34.91,35.2,[0,1,3,4,5,6,7,8],-2],[35.49,35.61,[0,1,3,4,6,7],-3],[35.47,35.7,[2,8],-2],[35.96,36.13,[0,1,3,4],2],[35.93,36.06,[2,6,8],2],[36.35,36.46,[2,6],2],[36.69,36.89,[0,2,6],5],[36.66,36.82,[4,5,7,8],6],[37.19,37.24,[0,6],-1],[37.49,37.63,[6],2],[37.46,37.63,[0,1,2,3,4,5,7,8],-3],[42.60,"set",[11,1,5,11,7,6,10,4,7,1,0],[0,0,0,0],92],[61.20,"set",[2,6,11,2,10,11,1,1,4,0,2],[1,1,0,0],93],[81.40,"set",[1,1,11,12,2,6,6,5,9,1,2],[1,1,1,0],94]],
+        "startTime": 34,
+        "solveStart": [34.30,3.54],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR5- DR4+ DL2+ UL0+ U2+ R2+ D4- L5+ ALL1- y2 U2- R6+ D6+ L1+ ALL1+ UR DR DL",
+        "inspection": "z2",
+        "solution": "dl(3-,2-) R(2-,3-) DR(2+,2+) \\(0+,2+) UL(6+,5+) L(0+,1-) ur(3-,2+)",
+        "date": "August 12, 2023",
+        "competitionName": "Tofta Summer Open 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/ToftaSummerOpen2023",
+        "author": "Jules Graham",
+        "average": [[90,"3.79"],[91,"3.54"],[92,"3.63"],[93,"3.50"],[94,"3.44"]]
+    },
+    {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.56 Average - 3.63",
+        "wcaid": "2021ELIA01",
+        "id": "zUFatMGBsAM",
+        "recon": [[0.01,"set",[6,1,12,10,7,8,11,3,10,0,2],[0,0,1,1],90],[23.00,"set",[2,6,11,6,12,11,7,2,11,1,2],[0,0,0,0],91],[42.60,"set",[11,1,5,11,7,6,10,4,7,1,0],[0,0,0,0],92],[52.5,52.67,[0,1,2,3,4,5,7,8],4],[52.94,53.04,[1,2,4,5,7,8],-2],[52.97,53.12,[0,6],-5],[53.43,53.67,[4,5,7,8],-5],[53.78,53.95,[4,5,7,8],-1],[53.4,53.67,[0,2,6],5],[54.1,54.24,[0,1,3,4,5,7,8],-5],[54.24,54.37,[2,6],-2],[54.58,54.72,[2,6,8],-1],[54.55,54.72,[0,1,3,4],-3],[55.03,55.13,[0,1,3,4,6,7],2],[55.3,55.43,[0,1,3,4,5,6,7,8],3],[55.26,55.43,[2],3],[61.20,"set",[2,6,11,2,10,11,1,1,4,0,2],[1,1,0,0],93],[81.40,"set",[1,1,11,12,2,6,6,5,9,1,2],[1,1,1,0],94]],
+        "startTime": 51,
+        "solveStart": [52.00,3.63],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR4- DR3+ DL2- UL6+ U1+ R3- D5+ L3- ALL4+ y2 U3+ R5- D0+ L3+ ALL1- UR",
+        "inspection": "y2",
+        "solution": "dl(0+,4+) R(5-,2-) DR(5+,5-) DR1- \\(5-,2-) UL(3-,1-) L2+ ur(3+,3+)",
+        "date": "August 12, 2023",
+        "competitionName": "Tofta Summer Open 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/ToftaSummerOpen2023",
+        "author": "Jules Graham",
+        "average": [[90,"3.79"],[91,"3.54"],[92,"3.63"],[93,"3.50"],[94,"3.44"]]
+    },
+    {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.56 Average - 3.50",
+        "wcaid": "2021ELIA01",
+        "id": "zUFatMGBsAM",
+        "recon": [[0.01,"set",[6,1,12,10,7,8,11,3,10,0,2],[0,0,1,1],90],[23.00,"set",[2,6,11,6,12,11,7,2,11,1,2],[0,0,0,0],91],[42.60,"set",[11,1,5,11,7,6,10,4,7,1,0],[0,0,0,0],92],[61.20,"set",[2,6,11,2,10,11,1,1,4,0,2],[1,1,0,0],93],[71,71.13,[0,1,3,4,5,6,7,8],1],[71,71.13,[2],1],[71.4,71.55,[0,1,3,4,6,7],-2],[71.75,71.99,[0,1,3,4],3],[71.76,71.95,[2,6,8],-5],[72.24,72.37,[0,1,3,4,5,7,8],-2],[72.21,72.34,[2,6],3],[72.66,72.76,[4,5,7,8],-4],[72.7,72.9,[0,2,6],-4],[73.23,73.36,[1,2,4,5,7,8],-4],[73.2,73.33,[0,6],4],[73.63,73.75,[0,1,2,3,4,5,7,8],-2],[73.63,73.76,[6],2],[81.40,"set",[1,1,11,12,2,6,6,5,9,1,2],[1,1,1,0],94]],
+        "startTime": 70,
+        "solveStart": [70.43,3.50],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR5- DR2+ DL3- UL4- U6+ R1- D5+ L6+ ALL4+ y2 U1+ R6+ D2+ L1+ ALL3+ DR DL",
+        "inspection": "x2",
+        "solution": "dl(1+,1+) R2- DR(5-,3+) \\(2-,3+) UL(4-,4-) L(4-,4+) ul(2-,2+)",
+        "date": "August 12, 2023",
+        "competitionName": "Tofta Summer Open 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/ToftaSummerOpen2023",
+        "author": "Jules Graham",
+        "average": [[90,"3.79"],[91,"3.54"],[92,"3.63"],[93,"3.50"],[94,"3.44"]]
+    },
+    {
+        "name": "Niklas Aasen Eliasson",
+        "title": "3.56 Average - 3.44",
+        "wcaid": "2021ELIA01",
+        "id": "zUFatMGBsAM",
+        "recon": [[0.01,"set",[6,1,12,10,7,8,11,3,10,0,2],[0,0,1,1],90],[23.00,"set",[2,6,11,6,12,11,7,2,11,1,2],[0,0,0,0],91],[42.60,"set",[11,1,5,11,7,6,10,4,7,1,0],[0,0,0,0],92],[61.20,"set",[2,6,11,2,10,11,1,1,4,0,2],[1,1,0,0],93],[81.40,"set",[1,1,11,12,2,6,6,5,9,1,2],[1,1,1,0],94],[89.59,89.74,[0,1,3,4,5,6,7,8],2],[90,90.06,[0,1,3,4,6,7],1],[89.93,90.16,[2,8],-4],[90.38,90.58,[2,6,8],1],[90.5,90.61,[0,1,3,4],3],[90.86,91.04,[0,1,3,4,5,7,8],-3],[90.86,91.06,[2,6],5],[91.39,91.5,[4,5,7,8],-1],[91.4,91.5,[0,2,6],3],[91.86,91.96,[1,2,4,5,7,8],-1],[91.83,92,[0,6],-4],[92.2,92.33,[0,1,2,3,4,5,7,8],-3],[92.23,92.36,[6],-2]],
+        "startTime": 88,
+        "solveStart": [89.13,3.44],
+        "tags": [["Official","gray"],["7-Simul","mediumpurple"],["Average","gray"]],
+        "scramble": "UR6+ DR5- DL1+ UL5+ U2- R1+ D5+ L2+ ALL1+ y2 U0+ R6+ D2- L4- ALL1- DL",
+        "inspection": "x2",
+        "solution": "dl2+ R(4-,1+) DR(1+,3+) \\(3-,5+) UL(1-,3+) L(1-,4-) ur(3-,2-)",
+        "date": "August 12, 2023",
+        "competitionName": "Tofta Summer Open 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/ToftaSummerOpen2023",
+        "author": "Jules Graham",
+        "average": [[90,"3.79"],[91,"3.54"],[92,"3.63"],[93,"3.50"],[94,"3.44"]]
+    },
+    {
+        "name": "Chris Sutedja",
+        "title": "3.47 Single",
+        "wcaid": "2022SUTE01",
+        "recon": [[0,"set",[3,1,4,0,4,3,3,11,10,0,3],[0,1,0,0]],[0.01,0.4,[3,4,5,6,7,8],-2],[0.0,0.4,[0,2],-3],[0.5,0.9,[3,4,6,7],-1],[0.5,0.9,[0,2,8],0],[1.0,1.4,[0,1,2,3,4,5,6,7],-2],[1.0,1.4,[8],1],[1.5,1.9,[0,1,2,3,4,5],-1],[1.5,1.9,[6,8],0],[2.0,2.4,[1,2,4,5],-4],[2.0,2.4,[0,6,8],-4],[2.5,2.9,[1,2,3,4,5,6,7],-6],[2.5,2.9,[0,8],-5]],
+        "solveStart": [0,3.47],
+        "tags": [["Unofficial","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
+        "scramble": "UR4- DR4- DL5- UL1+ U0+ R4- D2- L5+ ALL2+ y2 U5+ R4+ D3+ L1+ ALL3+ UR",
+        "inspection": "z'",
+        "solution": "R(3-,2-) DR(0,1-) ur(2-,1+) L(1-,0) UL(4-,4-) \\(6-,5-)",
+        "date": "October 03, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "",
+        "author": "Chris Sutedja"
+    },
+    {
+        "name": "Jaidon Lin",
+        "title": "2.20 Single",
+        "wcaid": "2019LINJ04",
+        "id": "jt0nfDJ19TQ",
+        "recon": [[0.01,"set",[10,2,6,2,3,2,9,3,12,0,2],[0,0,0,1]],[25.77,25.83,[4,5,7,8],-1],[25.77,25.87,[0,2,6],4],[26,26.2,"flip","x2",[2,10,10,5,10,10,1,5,11,1]],[26.5,26.57,[1,2,3,4,5,6,7,8],2],[26.77,26.83,[0,6],-1],[27,27.17,[1,2,4,5],-5],[27.03,27.23,[0,6,8],5],[27.47,27.6,[1,2,3,4,5,6,7],5],[27.5,27.63,[0,8],6]],
+        "startTime": 25,
+        "solveStart": [25.50,2.20],
+        "tags": [["Unofficial","gray"],["7sfndmw4lm","lightpink"],["Single","gray"]],
+        "scramble": "UR1- DR4- DL1- UL3- U4+ R6+ D6+ L5+ ALL3+ y2 U5- R0+ D0+ L5- ALL4+ UR DR UL",
+        "inspection": "x2",
+        "solution": "UL(1-,4+) x2 ur(2-,0) L(0,1+) UL(5+,5-) \\(5-,6-)",
+        "date": "September 03, 2023",
+        "competitionName": "home (unofficial)",
+        "competitionLink": "https://www.youtube.com/watch?v=jt0nfDJ19TQ",
+        "author": "Lachlan"
+    },
+    {
+        "name": "Conan Mo",
+        "title": "3.34 Single",
+        "wcaid": "2020MOCO01",
+        "id": "ji_23zHjmh8",
+        "recon": [[0.01,"set",[12,10,9,12,2,2,4,3,5,0,3],[1,1,0,1]],[5.87,6.03,[4,5,7,8],-4],[6.23,6.27,[1,2,4,5],1],[6.37,6.43,[1,2,4,5,7,8],1],[6.53,6.87,"flip","y2",[0,6,11,11,1,1,4,2,2,1]],[7.1,7.27,[1,2,4,5],1],[7.45,7.48,[4,5,7,8],-3],[7.65,7.73,[3,4,5,6,7,8],-4],[7.9,7.97,[1,2,3,4,5,6,7,8],5],[8.27,8.33,[0,1,3,4,5,7,8],5],[8.53,8.62,[0,1,2,3,4,5,6,7,8],-5]],
+        "startTime": 5,
+        "solveStart": [5.33,3.34],
+        "tags": [["Official","gray"],["Flip","lightgreen"],["Single","gray"]],
+        "scramble": "UR3+ DR0+ DL5+ UL0+ U4- R1- D1- L5- ALL5+ y2 U1+ R0+ D5+ L2- ALL5- DR",
+        "inspection": "x2 z",
+        "solution": "UR4- UL1+ U1+ y2 UR1- UL3+ L4+ dr5- \\5- ALL5+",
+        "date": "October 01, 2023",
+        "competitionName": "Australian Nationals 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/AustralianNationals2023",
+        "author": "Conan Mo"
+    },
+    {
+        "name": "Michal Černý",
+        "title": "3.38 Single",
+        "wcaid": "2022CERN03",
+        "recon": [[0,"set",[11,3,4,8,11,2,3,0,5,0,2],[0,0,1,0]],[0.01,0.4,[0,1,3,4,5,6,7,8],1],[0.0,0.4,[2],0],[0.5,0.9,[0,1,3,4,6,7],2],[0.5,0.9,[2,8],-5],[1.0,1.4,[0,1,3,4],1],[1.0,1.4,[2,6,8],2],[1.5,1.9,[0,1,3,4,5,7,8],6],[1.5,1.9,[2,6],1],[2.0,2.4,[4,5,7,8],4],[2.0,2.4,[0,2,6],-1],[2.5,2.9,[1,2,4,5,7,8],5],[2.5,2.9,[0,6],-2],[3.0,3.4,[0,1,2,3,4,5,7,8],6],[3.0,3.4,[6],6]],
+        "solveStart": [0,3.38],
+        "tags": [["NR","#00E676"],["Official","gray"],["7-Simul","mediumpurple"],["Single","gray"]],
+        "scramble": "UR0+ DR1- DL1+ UL1- U0+ R4+ D4- L3- ALL3+ y2 U0+ R4+ D6+ L5- ALL4- UR DL UL",
+        "inspection": "x2",
+        "solution": "dl(0+,1+) R(5-,2+) DR(2+,1+) \\(6+,1+) UL(4+,1-) L(5+,2-) ur(6+,6+)",
+        "date": "October 07, 2023",
+        "competitionName": "Prague Pyraminxing 2023",
+        "competitionLink": "https://www.worldcubeassociation.org/competitions/PraguePyraminxing2023",
+        "author": "Michal Černý"
+    },
 ]
+

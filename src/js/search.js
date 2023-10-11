@@ -53,7 +53,7 @@ function updateSearch() {
             }
         }
         // flip/7-simul/sheerin selectors
-        if (document.querySelector("#flipBox").checked || document.querySelector("#simulBox").checked || document.querySelector("#sheerinBox").checked) {
+        if (document.querySelector("#flipBox").checked || document.querySelector("#simulBox").checked || document.querySelector("#sheerinBox").checked || document.querySelector("#sfBox").checked) {
             if (gridItems[g].text.includes("Flip") && !document.querySelector("#flipBox").checked) {
                 gridItems[g].style.display = "none";
             }
@@ -61,6 +61,9 @@ function updateSearch() {
                 gridItems[g].style.display = "none";
             }
             else if (gridItems[g].text.includes("Sheerin") && !document.querySelector("#sheerinBox").checked) {
+                gridItems[g].style.display = "none";
+            }
+            else if (gridItems[g].text.includes("7sfndmw4lm") && !document.querySelector("#sfBox").checked) {
                 gridItems[g].style.display = "none";
             }
         }
@@ -104,7 +107,7 @@ const checkboxes = document.querySelectorAll('input[type="checkbox"]');
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', function() {
         const label = this.parentNode;
-        label.style.opacity = this.checked ? '1' : '0.5';
+        label.style.opacity = this.checked ? '1' : '0.3';
         updateSearch();
     });
 });

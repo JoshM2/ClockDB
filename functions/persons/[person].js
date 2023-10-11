@@ -27,6 +27,12 @@ export function onRequest(context) {
     sortedIndexes.unshift(30);
     sortedIndexes = sortedIndexes.filter(number => ![54, 55, 56, 57, 58].includes(number));
     sortedIndexes.unshift(54);
+    sortedIndexes = sortedIndexes.filter(number => ![77, 78, 79, 80, 81].includes(number));
+    sortedIndexes.unshift(77);
+    sortedIndexes = sortedIndexes.filter(number => ![90, 91, 92, 93, 94].includes(number));
+    sortedIndexes.unshift(90);
+    sortedIndexes = sortedIndexes.filter(number => ![67, 44, 68, 69, 70].includes(number));
+    sortedIndexes.unshift(67);
     sortedIndexes = sortedIndexes.filter(number => ![15, 16, 17, 18, 19].includes(number));
     sortedIndexes.unshift(15);
     sortedIndexes = sortedIndexes.filter(number => ![37, 38, 39, 40, 41].includes(number));
@@ -43,7 +49,7 @@ export function onRequest(context) {
             let title = data[i].title.includes(" - ") ? data[i].title.split(" - ")[0] : data[i].title; 
             let tile = `<a href="/r/${i}" class="grid-item">
                 <div>
-                    <img width="100%" alt="" src="${data[i].id != undefined ? 'https://img.youtube.com/vi/'+data[i].id+'/mqdefault.jpg' : '/images/'+i+'.png'}"></img>
+                    <img width="100%" alt="" src="${data[i].id != undefined ? 'https://img.youtube.com/vi/'+data[i].id+'/mqdefault.jpg' : '/images/thumbnails/'+i+'.png'}"></img>
                 </div>
                 <h2 class="solveTitle">${title}</h2>
                 <div id="tagsDiv">${tagsHTML}</div>
