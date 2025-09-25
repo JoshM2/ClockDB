@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+th, td {
+    outline: 1px solid #444444;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+}
+
+tr:nth-child(even) {
+    background-color: #292929;
+}
+
+.selected {
+    outline: 10px solid lime;
+}   

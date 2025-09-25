@@ -1,0 +1,172 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid-item-card {
+    background-color: #383838;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.solveTitle {
+    margin-top: 10px;
+}
+.text {
+    margin-top: 10px;
+}
+#search {
+    border: 2px solid rgb(40, 103, 128);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    padding: 12px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(70,70,70);
+    color: white;
+    font-size: large;
+}
+#badSearch {
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+#tagsDiv{
+    text-align: center;
+}
+.filter {
+    display: inline;
+    color: black;
+    padding: 2px 5px 2px 0px;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+    line-height: 1.7;
+    white-space: nowrap;
+    opacity: 0.3;
+}
+.filter:checked {
+    opacity: 1;
+}
+.grayLabel {
+    background-color: #808080;
+}
+.flipLabel {
+    background-color: lightgreen;
+}
+.simulLabel {
+    background-color: mediumpurple;
+}
+.sfLabel {
+    background-color: lightpink;
+}
+.sheerinLabel {
+    background-color: lightblue;
+}
+.nrLabel {
+background-color: #00E676;
+}
+.crLabel {
+    background-color: #FFEB3B;
+}
+.wrLabel {
+    background-color: #F44336;
+} 
+.reconType {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 4px;
+    line-height: 1.7;
+    white-space: nowrap;
+    background-color: #383838;
+}
+input[type="radio"] {
+    display: none;
+}
+#videoOnly {
+    border-radius: 10px 0px 0px 10px;
+}
+#textOnly {
+    border-radius: 0px 10px 10px 0px;
+}
+.typeSelected {
+    background-color: white;
+    color: black;
+}
+.labelText {
+    opacity: 1;
+}
+
+/* https://codepen.io/LukeRFP/pen/XMbeRL */
+.button_plus {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #222222;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* Mittig */
+    top: 12px;
+    right: 20px;
+}
+.button_plus:after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    width: 50%;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+}
+.button_plus:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 50%;
+    width: 4px;
+}
+.button_plus:hover:before,
+.button_plus:hover:after {
+    background: #222222;
+    transition: 0.2s;
+}
+.button_plus:hover {
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+table {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+tr {
+   text-decoration: none;
+}
+td {
+    border: 1px solid white;
+    padding: 5px;
+    width: 30vw;
+    max-width: 400px;
+}
+
+/* these footer styles are only for the home page so they are here */
+footer {
+    position: fixed;
+    transition: transform 0.3s ease;
+}
+footer.hidden {
+    transform: translateY(100%);
+}
