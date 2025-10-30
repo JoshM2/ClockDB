@@ -16,7 +16,7 @@ export async function onRequest(context) {
 
     let averageIds = new Set()
     for (let i=0; i<data.length; i++) {
-        if (data[i].average) {
+        if (data[i].average && (data[i].title.includes("Average") || data[i].title.includes("Ao12"))) {
             sortedIndexes.splice(sortedIndexes.indexOf(i), 1);
             if (data[i].num == JSON.parse(data[i].average)[0][0]) {
                 averageIds.add(i)
@@ -86,7 +86,6 @@ export async function onRequest(context) {
             <a href="/" id="home"><img src="/images/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
         <a href="/lists">reconstruction lists</a>
-        <br>all code is now updated on <a href="https://github.com/JoshM2/ClockDB" target="_blank">GitHub</a>! (It hadn't been updated for 2 years)
         <br><br>
         <input type="text" id="search" placeholder="Search"></input><br>
 
