@@ -1,0 +1,110 @@
+PRAGMA defer_foreign_keys=TRUE;
+CREATE TABLE queue(
+  num INTEGER PRIMARY KEY,
+  name TEXT,
+  title TEXT,
+  wcaid TEXT,
+  id TEXT,
+  recon TEXT,
+  startTime INTEGER,
+  endTime INTEGER,
+  solveStart TEXT,
+  tags TEXT,
+  scramble TEXT,
+  inspection TEXT,
+  solution TEXT,
+  date TEXT,
+  competitionName TEXT,
+  competitionLink TEXT,
+  author TEXT,
+  authorId TEXT,
+  average TEXT
+);
+CREATE TABLE reconstructions(
+  num INT,
+  name TEXT,
+  title TEXT,
+  wcaid TEXT,
+  id TEXT,
+  recon TEXT,
+  startTime INT,
+  endTime INT,
+  solveStart TEXT,
+  tags TEXT,
+  scramble TEXT,
+  inspection TEXT,
+  solution TEXT,
+  date TEXT,
+  competitionName TEXT,
+  competitionLink TEXT,
+  author TEXT,
+  authorId TEXT, -- note that authorId never ended up being used, so I repurposed it as the column where the clock color is stored.
+  average TEXT
+);
+CREATE TABLE archive(
+  num INT,
+  name TEXT,
+  title TEXT,
+  wcaid TEXT,
+  id TEXT,
+  recon TEXT,
+  startTime INT,
+  endTime INT,
+  solveStart TEXT,
+  tags TEXT,
+  scramble TEXT,
+  inspection TEXT,
+  solution TEXT,
+  date TEXT,
+  competitionName TEXT,
+  competitionLink TEXT,
+  author TEXT,
+  authorId TEXT,
+  average TEXT
+);
+CREATE TABLE users(
+  key TEXT PRIMARY KEY,
+  name TEXT,
+  wcaid TEXT,
+  email TEXT,
+  access INTEGER,
+  created INTEGER
+);
+CREATE TABLE saved(
+  num INTEGER PRIMARY KEY,
+  id TEXT,
+  recon TEXT,
+  name TEXT,
+  time TEXT,
+  method TEXT,
+  wcaid TEXT,
+  scramble TEXT,
+  startTimestamp TEXT,
+  date TEXT,
+  official TEXT,
+  competitionName TEXT,
+  competitionLink TEXT,
+  authorId TEXT -- confusingly, unlike other places where I have used the authorId column name (see my other comment), this table does indeed store an id for the author here.
+);
+CREATE TABLE removed_reconstructions(
+  num INT,
+  name TEXT,
+  title TEXT,
+  wcaid TEXT,
+  id TEXT,
+  recon TEXT,
+  startTime INT,
+  endTime INT,
+  solveStart TEXT,
+  tags TEXT,
+  scramble TEXT,
+  inspection TEXT,
+  solution TEXT,
+  date TEXT,
+  competitionName TEXT,
+  competitionLink TEXT,
+  author TEXT,
+  authorId TEXT,
+  average TEXT
+);
+CREATE INDEX idx_reconstructions_num ON reconstructions(num);
