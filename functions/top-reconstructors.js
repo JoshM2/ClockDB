@@ -1,32 +1,19 @@
 export async function onRequest(context) {
-    const ps = context.env.db.prepare('SELECT * from reconstructions')
-    let data = await ps.all();
-    data = data["results"]
-
-    let r = {};
-    for (let i = 0; i < data.length; i++) {
-        if (data[i].id == undefined) {
-
-        }
-        else if (data[i].author in r) {
-            r[data[i].author].push(i);
-        }
-        else {
-            r[data[i].author] = [i];
-        }
+    const cache = caches.default;
+    const cacheKey = new Request(new URL(context.request.url).toString(), context.request);
+    const hit = await cache.match(cacheKey);
+    if (hit) {
+        return hit;
     }
 
-    const entries = Object.entries(r);
-    entries.sort((a, b) => b[1].length - a[1].length);
-    const sortedDictionary = Object.fromEntries(entries);
+    // pregenerated once a day by workers/generate-home-grids.js
+    const blob = await context.env.KV.get("top-reconstructors", { type: "json" });
+    const { html: reconstructorHTML = "", generated = "unknown" } = blob ?? {};
 
-    let reconstructorHTML = "";
-    const keys = Object.keys(sortedDictionary);
-    for (let i = 0; i < keys.length; i++) {
-        reconstructorHTML += `<div>${keys[i]} - ${sortedDictionary[keys[i]].length}</div>`;
-    }
+    const emptyNotice = blob ? "" : `<div>This list is being regenerated &mdash; please check back shortly.</div>`;
 
     const html = `<!DOCTYPE html>
+    <!-- generated ${generated} -->
     <html lang="en">
     <head>
         <script defer src="https://analytics.clockdb.net/script.js" data-website-id="c808d079-4a5b-4e4b-8f11-faed3445ceb3"></script>
@@ -40,14 +27,14 @@ export async function onRequest(context) {
         <div id="nav">
             <a href="/" id="home"><img src="/images/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
-    
+
         <h1>Reconstructors</h1>
 
-        <div id="reconstructorList">${reconstructorHTML}</div>
+        <div id="reconstructorList">${emptyNotice}${reconstructorHTML}</div>
 
         <br><br>
         Note: a reconstructed ao5 counts as 5 reconstructed solves.
-        <br><br><br>    
+        <br><br><br>
 
         <footer>
             <a href="/contact">Contact</a>
@@ -57,9 +44,23 @@ export async function onRequest(context) {
     </body>
     </html>`
 
-    return new Response(html, {
+    if (!blob) {
+        return new Response(html, {
+            status: 503,
+            headers: {
+                "content-type": "text/html;charset=UTF-8",
+                "cache-control": "no-store",
+                "retry-after": "3600",
+            },
+        });
+    }
+
+    const response = new Response(html, {
         headers: {
             "content-type": "text/html;charset=UTF-8",
+            "cache-control": "public, max-age=0, s-maxage=300",
         },
     });
-}   
+    context.waitUntil(cache.put(cacheKey, response.clone()));
+    return response;
+}

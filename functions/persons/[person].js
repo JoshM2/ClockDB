@@ -80,7 +80,7 @@ export async function onRequest(context) {
         <div id="nav">
             <a href="/" id="home"><img src="/images/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
-        <h1 id="title">${name} <a href="https://www.worldcubeassociation.org/persons/${person}" target="_blank"><img alt="WCA logo" width="32" height="32" src="/images/WCAlogo.svg"></img></a></h1>
+        <h1 id="title">${name}</h1>
         <br><br>
         ${finalTiles}
         <br><br><br>

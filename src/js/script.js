@@ -18,6 +18,8 @@ let reconLength = recon.length;
 // reed /r/1396 red blue combo
 // ["#ffdddd","#014ea8","white","#ff3549","#ff3549","white","014ea8","#ffdddd","yellow","gray"]
 
+// karl /r/1640 red clock with white black dials
+//["#ffdddd","black","white","#ff3549","#ff3549","white","black","#ffdddd","yellow","gray"]
 
 // gets colors of all the elements
 let [face1,clocks1,hands1,twelve1,face2,clocks2,hands2,twelve2,pinsUp,pinsDown] = ["white","black","white","red","black","white","black","red","yellow","gray"]
@@ -138,9 +140,9 @@ function animate() {
             }
             else if(recon[i][3]==="z'"){
                 clockElement.style.transform = "";
-                clockElement.style.transform = `rotate(${(flipDegrees/-2)}deg) ` + clockElement.style.transform
+                clockElement.style.transform = `rotate(${(flipDegrees/-2)}deg) ` + clockElement.style.transform;
                 state[10] = [3,0,1,2][state[10]];
-            }          
+            }     
             if (flipDegrees>90 && recon[i][3]!="z" && recon[i][3]!="z'") {
                 state[9] = recon[i][4][9];
                 bigCircleElement.style.backgroundColor = (state[9] === 0 ? face1 : face2);
@@ -233,7 +235,10 @@ if (solveData.average !== null) {
     document.querySelector(`.s${solve}`).classList.add('selectedTime');
     for (let s = 0; s < averageTimeBoxElements.length; s++) {
         averageTimeBoxElements[s].addEventListener("click", function(){
-            player.seekTo(window.data.find(item => item.num == JSON.parse(solveData.average)[s][0]).startTime, true); // NEEDS FIXING
+            const seekData = window.data.find(item => item.num == JSON.parse(solveData.average)[s][0]);
+            // need to do this cause in really short videos (ie recon 1903) the solve start time could be before the video cuts to the next solve
+            const seekTime = Math.max(seekData.startTime,JSON.parse(solveData.average)[s][2]);
+            player.seekTo(seekTime, true);
         })        
     }
 }

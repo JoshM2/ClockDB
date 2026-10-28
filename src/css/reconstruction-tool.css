@@ -19,5 +19,5 @@ tr:nth-child(even) {
 }
 
 .selected {
-    outline: 10px solid lime;
-}   
+    box-shadow: 0 0 0 10px lime;
+}

@@ -1,75 +1,24 @@
 export async function onRequest(context) {
-    const ps = context.env.db.prepare('SELECT * from reconstructions')
-    let data = await ps.all();
-    data = data["results"]
-
-    const timeValues = data.map((jsonObj, index) => ({
-        index,
-        solveStart: JSON.parse(jsonObj.solveStart)[1],
-        title: jsonObj.title
-    }));
-    // sort the singles so that DNFs are at the bottom
-    let sortedIndexes = timeValues.sort((a, b) => 
-        a.title.includes("DNF") - b.title.includes("DNF") || a.solveStart - b.solveStart
-    ).map(obj => obj.index);
-
-
-    let averageIds = new Set()
-    for (let i=0; i<data.length; i++) {
-        if (data[i].average && (data[i].title.includes("Average") || data[i].title.includes("Ao12"))) {
-            sortedIndexes.splice(sortedIndexes.indexOf(i), 1);
-            if (data[i].num == JSON.parse(data[i].average)[0][0]) {
-                averageIds.add(i)
-            }
-        }
-    }
-    let filteredDicts = Array.from(averageIds).map(i => data[i]);
-    // sorts the averages so that the averages that are DNF go to the bottom
-    filteredDicts.sort((dict1, dict2) => {
-        const num1 = parseFloat(dict1.title.split()[0]);
-        const num2 = parseFloat(dict2.title.split()[0]);
-        if (isNaN(num1) && isNaN(num2)) {
-            return 0; // Both are NaN, keep their order
-        } else if (isNaN(num1) && !isNaN(num2)) {
-            return -1; // num1 is NaN, sort it lower
-        } else if (!isNaN(num1) && isNaN(num2)) {
-            return 1; // num2 is NaN, sort it lower
-        } else {
-            return num2 - num1; //Both are valid numbers, sort in descending order
-        }
-    });    let sortedAverageIds = filteredDicts.map(dict => data.indexOf(dict));
-    for (let item of sortedAverageIds) {
-        sortedIndexes.unshift(item);
+    // edge cache. cloudflare does not cache pages functions responses by
+    // default, so this has to be done explicitly rather than by just setting
+    // a cache-control header.
+    const cache = caches.default;
+    const cacheKey = new Request(new URL(context.request.url).toString(), context.request);
+    const hit = await cache.match(cacheKey);
+    if (hit) {
+        return hit;
     }
 
-    let officialGrid = "";
-    let unofficialGrid = "";
-    sortedIndexes.forEach(i => {
-        let tagsHTML = ""
-        data[i].tags = JSON.parse(data[i].tags)
-        for (let x=0; x < data[i].tags.length; x++) {
-            tagsHTML += `<span class='tags' style='background-color:${data[i].tags[x][1]};'>${data[i].tags[x][0]}</span> `;
-        }
-        // excludes text recons
-        if (data[i].id) {
-            let title = data[i].title.includes(" - ") ? data[i].title.split(" - ")[0] : data[i].title; 
-            let tile = `<a href="/r/${data[i].num}" class="grid-item grid-item-card">
-                <div>
-                    <img style="width: 100%; height: auto;" width="320" height="180" loading="lazy" alt="" src="${data[i].id ? 'https://img.youtube.com/vi/'+data[i].id+'/mqdefault.jpg' : '/images/thumbnails/'+i+'.png'}"></img>
-                </div>
-                <h2 class="solveTitle">${data[i].name + " " + title}</h2>
-                <div id="tagsDiv">${tagsHTML}</div>
-            </a>`
-            if (data[i].competitionName != "home (unofficial)") {
-                officialGrid += tile;
-            }
-            else {
-                unofficialGrid += tile;
-            }
-        }
-    })
+    // grids are pregenerated once a day by workers/generate-home-grids.js
+    const blob = await context.env.KV.get("home-grids", { type: "json" });
+    const { official = "", unofficial = "", generated = "unknown" } = blob ?? {};
+
+    // shown only when the KV key is missing, so the page still says something
+    // sensible to a human instead of rendering as an empty grid
+    const emptyNotice = blob ? "" : `<h2>Reconstructions are being regenerated &mdash; please check back shortly.</h2><br>`;
 
     const html = `<!DOCTYPE html>
+    <!-- generated ${generated} -->
     <html lang="en">
     <head>
         <script defer src="https://analytics.clockdb.net/script.js" data-website-id="c808d079-4a5b-4e4b-8f11-faed3445ceb3"></script>
@@ -85,8 +34,9 @@ export async function onRequest(context) {
         <div id="nav">
             <a href="/" id="home"><img src="/images/clock.ico" width="23" height="23"> ClockDB</a>
         </div>
-        <a href="/lists">reconstruction lists</a>
+        <a href="/lists">reconstruction lists</a><br><br>
         <br><br>
+        ${emptyNotice}
         <input type="text" id="search" placeholder="Search"></input><br>
 
         <label class="filter grayLabel">
@@ -125,12 +75,12 @@ export async function onRequest(context) {
 
         <br><br>
         <h2 id="official">Official Solves</h2>
-        <div id="grid-container">${officialGrid}</div><br>
+        <div id="grid-container">${official}</div><br>
         <h2 id="unofficial">Unofficial Solves</h2>
-        <div id="grid-container">${unofficialGrid}</div><br>
+        <div id="grid-container">${unofficial}</div><br>
         <div id="badSearch" style="display: none">Sorry, but there aren't any reconstructions that match your search.</div>
         <br><br>
-        
+
         <a href="/top-reconstructors/"><u>Thanks to everyone who has made a reconstruction!</u></a>
         <br><br><br><br>
         <footer>
@@ -142,9 +92,27 @@ export async function onRequest(context) {
     </body>
     </html>`
 
-    return new Response(html, {
+    // key is missing: re-run workers/generate-home-grids.js from the dashboard.
+    // 503 rather than an empty 200 so crawlers come back instead of recording
+    // the home page as having no content, and no-store so the page recovers the
+    // moment the key exists.
+    if (!blob) {
+        return new Response(html, {
+            status: 503,
+            headers: {
+                "content-type": "text/html;charset=UTF-8",
+                "cache-control": "no-store",
+                "retry-after": "3600",
+            },
+        });
+    }
+
+    const response = new Response(html, {
         headers: {
             "content-type": "text/html;charset=UTF-8",
+            "cache-control": "public, max-age=0, s-maxage=300",
         },
     });
-}   
+    context.waitUntil(cache.put(cacheKey, response.clone()));
+    return response;
+}

@@ -109,7 +109,7 @@ export async function onRequest(context) {
                 <h2 id="solution">Solution: ${data.inspection} ${data.solution}</h2>
             </div>
             <br><br>
-            <span id="date">${data.date} at <a href="${data.competitionLink}" target="_blank">${data.competitionName}</a>. Reconstructed by <span id="author">${data.author}</span>.</span>
+            <span id="date">${data.date} at ${data.competitionName}. Reconstructed by <span id="author">${data.author}</span>.</span>
             <br><br><br>    
             <footer>
                 <a href="/contact/">Contact</a>
@@ -198,7 +198,7 @@ export async function onRequest(context) {
             <div id="averageTimes">${averageTimesHTML}</div>
             
             <br><br>
-            <span id="date">${data.date} at <a href="${data.competitionLink}" target="_blank">${data.competitionName}</a>. Submitted by <span id="author">${data.author}</span>.</span>
+            <span id="date">${data.date} at ${data.competitionName}. Submitted by <span id="author">${data.author}</span>.</span>
             <br><br><br>    
             <footer>
                 <a href="/contact/">Contact</a>
