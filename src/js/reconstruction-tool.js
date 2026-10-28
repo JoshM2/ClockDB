@@ -50,8 +50,18 @@ async function submitOrientation() {
 }
 
 async function addFlip() {
-    let temp = recon;
-    recon = [[0,0,"flip",document.querySelector("#flipType").value,[0,0,0,0,0,0,0,0,0,parseInt(document.querySelector("#color").value)]]]
+    let temp = structuredClone(recon);
+    recon = recon.filter(x=> x.includes("flip") || x.includes("set"))
+    recon.forEach((x,i) => {
+        if (x[2] == "flip") {
+            recon[i][0] = 0
+            recon[i][1] = 0
+        }
+        if (x[1] == "set") {
+            recon[i][0] = 0
+        }
+    })
+    recon.push([0.01,0.01,"flip",document.querySelector("#flipType").value,[0,0,0,0,0,0,0,0,0,parseInt(document.querySelector("#color").value)]])
     document.querySelector("#flipType").value = ""
     document.querySelector("#color").value = ""
     document.querySelector("#step6").style.display = "none";
@@ -65,8 +75,8 @@ async function addFlip() {
     }
     document.querySelector("#step3").style.display = "none";
     document.querySelector("#step4").style.display = "block";
-    temp.push(recon[0]);
-    recon = temp;
+    temp.push(recon[recon.length-1]);
+    recon = structuredClone(temp)
     t = document.querySelector('#table');
     var r = document.createElement('tr');
     r.innerHTML = `<td>flip</td><td><input type='text' oninput='recon[${recon.length-1}][0]=parseFloat(this.value)'></td><td><input type='text' oninput='recon[${recon.length-1}][1]=parseFloat(this.value)'></td>`;
@@ -124,26 +134,36 @@ setInterval(function() {
         else if (timeStamp >= recon[i][0] && recon[i][2] == "flip") {
             flipDegrees = ((timeStamp-recon[i][0])/(recon[i][1]-recon[i][0]) > 1 ? 1 : (timeStamp-recon[i][0])/(recon[i][1]-recon[i][0])) * 180;
             if(recon[i][3]==="x2"){
-                clockElement.style.transform = "";
-                clockElement.style.transform = " rotateX("+(-flipDegrees)+"deg) rotate("+state[10]*90+"deg)";
+                // clockElement.style.transform = "";
+
+                clockElement.style.transform = " rotateX("+(-flipDegrees)+"deg) " + clockElement.style.transform;
                 state[10] = [2,1,0,3][state[10]];
             }
             else if(recon[i][3]==="y2"){
-                clockElement.style.transform = "";
-                clockElement.style.transform = " rotateY("+flipDegrees+"deg) rotate("+state[10]*90+"deg)";
+                // clockElement.style.transform = "";
+                clockElement.style.transform = "rotateY("+flipDegrees+"deg) " + clockElement.style.transform;
                 state[10] = [0,3,2,1][state[10]];
             }
             else if(recon[i][3]==="x2z"){
-                clockElement.style.transform = "";
-                clockElement.style.transform = `rotateX(${flipDegrees}deg) rotate(${state[10]*90+(flipDegrees/(flipDegrees > 90 ? -2 : 2))}deg)`
+                // clockElement.style.transform = "";
+                clockElement.style.transform = `rotateX(${flipDegrees}deg) rotate(${(flipDegrees/(flipDegrees > 90 ? -2 : 2))}deg) ` + clockElement.style.transform;
                 state[10] = [3,2,1,0][state[10]];
             }
             else if(recon[i][3]==="x2z'"){
-                clockElement.style.transform = "";
-                clockElement.style.transform = `rotateX(${flipDegrees}deg) rotate(${state[10]*90+(flipDegrees/(flipDegrees > 90 ? 2 : -2))}deg)`
+                // clockElement.style.transform = "";
+                clockElement.style.transform = ` rotateX(${flipDegrees}deg) rotate(${(flipDegrees/(flipDegrees > 90 ? 2 : -2))}deg) ` + clockElement.style.transform;
                 state[10] = [1,0,3,2][state[10]];
+            }      
+            else if(recon[i][3]==="z"){
+                // clockElement.style.transform = "";
+                clockElement.style.transform = `rotate(${(flipDegrees/2)}deg) ` + clockElement.style.transform;
+                state[10] = [1,2,3,0][state[10]];
             }
-            if (flipDegrees>90){
+            else if(recon[i][3]==="z'"){
+                clockElement.style.transform = `rotate(${(flipDegrees/-2)}deg) ` + clockElement.style.transform;
+                state[10] = [3,0,1,2][state[10]];
+            }
+            if (flipDegrees>90 && recon[i][3] != "z" && recon[i][3] != "z'"){
                 state[9] = recon[i][4][9];
                 document.querySelectorAll(".bigCircle,.dial").forEach(element => element.style.backgroundColor = (state[9] == 0 ? "white" : "black"));
                 document.querySelectorAll(".circle").forEach(element => element.style.backgroundColor = (state[9] == 0 ? "black" : "white "));

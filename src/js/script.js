@@ -139,7 +139,6 @@ function animate() {
                 state[10] = [1,2,3,0][state[10]];
             }
             else if(recon[i][3]==="z'"){
-                clockElement.style.transform = "";
                 clockElement.style.transform = `rotate(${(flipDegrees/-2)}deg) ` + clockElement.style.transform;
                 state[10] = [3,0,1,2][state[10]];
             }     
